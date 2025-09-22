@@ -9,6 +9,13 @@ class AppTheme {
   static const Color surfaceLight = Color(0xFFFFFFFF);
   static const Color surfaceDark = Color(0xFF1E1E1E);
 
+  // Dashboard specific (from your image)
+  static const caloriesCard = Color(0xFF4DB6AC); // teal
+  static const mealsCard = Color(0xFF9575CD); // purple
+  static const cookbookCard = Color(0xFFFFB74D); // orange
+  static const notesCard = Color(0xFF64B5F6); // light blue
+  static const recipesCard = Color(0xFFE57373);
+
   static ThemeData lightTheme = ThemeData(
     useMaterial3: true,
     brightness: Brightness.light,

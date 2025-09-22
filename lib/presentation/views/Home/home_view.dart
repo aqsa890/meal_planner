@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meal_planner/presentation/views/Dashboard/dashboard_view.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -13,27 +14,29 @@ class HomeView extends StatelessWidget {
         children: [
           // Top image with fixed height
           SizedBox(
-            height: MediaQuery.of(context).size.height * 0.53, // 53% of screen
+            height: MediaQuery.of(context).size.height * 0.53,
             width: double.infinity,
             child: Stack(
               children: [
                 Image.asset(
-                  "assets/images/meal1.jpg", // your image
+                  "assets/images/meal1.jpg",
                   fit: BoxFit.cover,
                   width: double.infinity,
                 ),
-
-                // Blur-like gradient fade at bottom of image
+                // Gradient fade at bottom of image
                 Positioned.fill(
                   child: Align(
                     alignment: Alignment.bottomCenter,
                     child: Container(
                       height: 100,
-                      decoration: const BoxDecoration(
+                      decoration: BoxDecoration(
                         gradient: LinearGradient(
                           begin: Alignment.topCenter,
                           end: Alignment.bottomCenter,
-                          colors: [Colors.transparent, Colors.white],
+                          colors: [
+                            Colors.transparent,
+                            theme.scaffoldBackgroundColor,
+                          ],
                         ),
                       ),
                     ),
@@ -50,7 +53,7 @@ class HomeView extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  // Headline split into multiple lines with styles
+                  // Headline split into multiple lines
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
@@ -59,7 +62,7 @@ class HomeView extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: theme.textTheme.headlineSmall?.copyWith(
                           fontWeight: FontWeight.bold,
-                          color: Colors.black87,
+                          color: theme.colorScheme.onSurface,
                         ),
                       ),
                       const SizedBox(height: 4),
@@ -68,18 +71,16 @@ class HomeView extends StatelessWidget {
                         text: TextSpan(
                           style: theme.textTheme.headlineSmall?.copyWith(
                             fontWeight: FontWeight.bold,
+                            color: theme.colorScheme.onSurface,
                           ),
                           children: [
                             TextSpan(
                               text: "Healthy ",
                               style: TextStyle(color: colorScheme.primary),
                             ),
+                            const TextSpan(text: "and "),
                             TextSpan(
-                              text: "and",
-                              style: const TextStyle(color: Colors.black),
-                            ),
-                            TextSpan(
-                              text: " Delicious",
+                              text: "Delicious",
                               style: const TextStyle(color: Colors.red),
                             ),
                           ],
@@ -91,7 +92,7 @@ class HomeView extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: theme.textTheme.headlineSmall?.copyWith(
                           fontWeight: FontWeight.bold,
-                          color: Colors.black87,
+                          color: theme.colorScheme.onSurface,
                         ),
                       ),
                     ],
@@ -102,7 +103,7 @@ class HomeView extends StatelessWidget {
                     "Start your journey to better health by reconnecting with what's on your plate. Our app helps you plan balanced meals.",
                     textAlign: TextAlign.center,
                     style: theme.textTheme.bodyMedium?.copyWith(
-                      color: Colors.black54,
+                      color: theme.colorScheme.onSurface.withOpacity(0.7),
                     ),
                   ),
                   const SizedBox(height: 24),
@@ -110,7 +111,12 @@ class HomeView extends StatelessWidget {
                   // Gradient button
                   GestureDetector(
                     onTap: () {
-                      // TODO: navigate to next screen
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const Dashboard(),
+                        ),
+                      );
                     },
                     child: Container(
                       width: double.infinity,
@@ -121,10 +127,7 @@ class HomeView extends StatelessWidget {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(12),
                         gradient: LinearGradient(
-                          colors: [
-                            colorScheme.primary, // primary green
-                            colorScheme.secondary, // secondary green
-                          ],
+                          colors: [colorScheme.primary, colorScheme.secondary],
                         ),
                       ),
                       child: const Center(
