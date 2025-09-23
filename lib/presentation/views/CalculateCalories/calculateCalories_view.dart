@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meal_planner/presentation/views/Dashboard/dashboard_view.dart';
 
 class CalculateCaloriesScreen extends StatefulWidget {
   const CalculateCaloriesScreen({super.key});
@@ -16,7 +17,6 @@ class _CalculateCaloriesScreenState extends State<CalculateCaloriesScreen> {
   double height = 0; // cm
   int age = 0;
   String activity = "Sedentary";
-
   double? resultCalories;
 
   final List<String> activities = [
@@ -64,83 +64,175 @@ class _CalculateCaloriesScreenState extends State<CalculateCaloriesScreen> {
   }
 
   @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _showCalculatorDialog();
+    });
+  }
 
-    return Scaffold(
-      appBar: AppBar(title: const Text("Calorie Calculator")),
-      body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Form(
-          key: _formKey,
-          child: Column(
-            children: [
-              // Gender
-              DropdownButtonFormField<String>(
-                value: gender,
-                decoration: const InputDecoration(labelText: "Gender"),
-                items:
-                    ["Male", "Female"]
-                        .map((g) => DropdownMenuItem(value: g, child: Text(g)))
-                        .toList(),
-                onChanged: (value) => setState(() => gender = value!),
+  void _showCalculatorDialog() {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) {
+        final theme = Theme.of(context);
+        return StatefulBuilder(
+          builder: (context, setStateDialog) {
+            return AlertDialog(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
               ),
+              content: SingleChildScrollView(
+                child: Form(
+                  key: _formKey,
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        "Calorie Calculator",
+                        style: theme.textTheme.headlineSmall?.copyWith(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      const SizedBox(height: 20),
 
-              // Weight
-              TextFormField(
-                decoration: const InputDecoration(labelText: "Weight (kg)"),
-                keyboardType: TextInputType.number,
-                validator: (value) => value!.isEmpty ? "Enter weight" : null,
-                onSaved: (value) => weight = double.parse(value!),
-              ),
+                      // Gender
+                      DropdownButtonFormField<String>(
+                        value: gender,
+                        decoration: const InputDecoration(
+                          labelText: "Gender",
+                          prefixIcon: Icon(Icons.person),
+                        ),
+                        items: ["Male", "Female"]
+                            .map((g) =>
+                            DropdownMenuItem(value: g, child: Text(g)))
+                            .toList(),
+                        onChanged: (value) =>
+                            setStateDialog(() => gender = value!),
+                      ),
 
-              // Height
-              TextFormField(
-                decoration: const InputDecoration(labelText: "Height (cm)"),
-                keyboardType: TextInputType.number,
-                validator: (value) => value!.isEmpty ? "Enter height" : null,
-                onSaved: (value) => height = double.parse(value!),
-              ),
+                      const SizedBox(height: 12),
 
-              // Age
-              TextFormField(
-                decoration: const InputDecoration(labelText: "Age"),
-                keyboardType: TextInputType.number,
-                validator: (value) => value!.isEmpty ? "Enter age" : null,
-                onSaved: (value) => age = int.parse(value!),
-              ),
+                      // Weight
+                      TextFormField(
+                        decoration: const InputDecoration(
+                          labelText: "Weight (kg)",
+                          prefixIcon: Icon(Icons.monitor_weight),
+                        ),
+                        keyboardType: TextInputType.number,
+                        validator: (value) =>
+                        value!.isEmpty ? "Enter weight" : null,
+                        onSaved: (value) =>
+                        weight = double.parse(value ?? "0"),
+                      ),
 
-              // Activity
-              DropdownButtonFormField<String>(
-                value: activity,
-                decoration: const InputDecoration(labelText: "Activity Level"),
-                items:
-                    activities
-                        .map((a) => DropdownMenuItem(value: a, child: Text(a)))
-                        .toList(),
-                onChanged: (value) => setState(() => activity = value!),
-              ),
+                      const SizedBox(height: 12),
 
-              const SizedBox(height: 20),
+                      // Height
+                      TextFormField(
+                        decoration: const InputDecoration(
+                          labelText: "Height (cm)",
+                          prefixIcon: Icon(Icons.height),
+                        ),
+                        keyboardType: TextInputType.number,
+                        validator: (value) =>
+                        value!.isEmpty ? "Enter height" : null,
+                        onSaved: (value) =>
+                        height = double.parse(value ?? "0"),
+                      ),
 
-              ElevatedButton(
-                onPressed: _calculateCalories,
-                child: const Text("Calculate"),
-              ),
+                      const SizedBox(height: 12),
 
-              const SizedBox(height: 20),
+                      // Age
+                      TextFormField(
+                        decoration: const InputDecoration(
+                          labelText: "Age",
+                          prefixIcon: Icon(Icons.cake),
+                        ),
+                        keyboardType: TextInputType.number,
+                        validator: (value) =>
+                        value!.isEmpty ? "Enter age" : null,
+                        onSaved: (value) => age = int.parse(value ?? "0"),
+                      ),
 
-              if (resultCalories != null)
-                Text(
-                  "Your daily calories need: ${resultCalories!.toStringAsFixed(0)} kcal",
-                  style: theme.textTheme.titleLarge?.copyWith(
-                    fontWeight: FontWeight.bold,
+                      const SizedBox(height: 12),
+
+                      // Activity
+                      DropdownButtonFormField<String>(
+                        value: activity,
+                        decoration: const InputDecoration(
+                          labelText: "Activity Level",
+                          prefixIcon: Icon(Icons.fitness_center),
+                        ),
+                        items: activities
+                            .map((a) => DropdownMenuItem(
+                            value: a, child: Text(a)))
+                            .toList(),
+                        onChanged: (value) =>
+                            setStateDialog(() => activity = value!),
+                      ),
+
+                      const SizedBox(height: 20),
+
+                      // Button
+                      ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 24,
+                            vertical: 14,
+                          ),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                        ),
+                        onPressed: () {
+                          _calculateCalories();
+                          setStateDialog(() {});
+                        },
+                        child: const Text(
+                          "Calculate",
+                          style: TextStyle(fontSize: 16),
+                        ),
+                      ),
+
+                      const SizedBox(height: 20),
+
+                      // Result
+                      if (resultCalories != null)
+                        Text(
+                          "Your daily need: ${resultCalories!.toStringAsFixed(0)} kcal",
+                          style: theme.textTheme.titleMedium?.copyWith(
+                            fontWeight: FontWeight.bold,
+                            color: theme.colorScheme.primary,
+                          ),
+                        ),
+                    ],
                   ),
                 ),
-            ],
-          ),
-        ),
-      ),
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () {
+                    Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(builder: (context) => const Dashboard()),
+                          (route) => false, // removes all previous routes
+                    );
+                  },
+                  child: const Text("Close"),
+                ),
+              ],
+
+            );
+          },
+        );
+      },
     );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold(); // empty background since dialog shows immediately
   }
 }
