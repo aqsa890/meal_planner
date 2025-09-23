@@ -91,10 +91,6 @@ class Dashboard extends StatelessWidget {
                           ),
                           backgroundColor: Colors.transparent,
                           shadowColor: Colors.transparent,
-                        ).copyWith(
-                          backgroundColor: WidgetStateProperty.resolveWith(
-                            (states) => null,
-                          ),
                         ),
                         onPressed: () {
                           Navigator.push(
@@ -157,7 +153,9 @@ class Dashboard extends StatelessWidget {
                     title: "CookBook",
                     theme: theme,
                     isDark: isDark,
-                    onTap: () {},
+                    onTap: () {
+                      // TODO: Navigate to CookBook screen
+                    },
                   ),
                   _buildFeatureCard(
                     icon: Icons.rice_bowl,
@@ -178,14 +176,18 @@ class Dashboard extends StatelessWidget {
                     title: "Nutrition",
                     theme: theme,
                     isDark: isDark,
-                    onTap: () {},
+                    onTap: () {
+                      // TODO: Navigate to Nutrition screen
+                    },
                   ),
                   _buildFeatureCard(
                     icon: Icons.note_alt,
                     title: "Meal Notes",
                     theme: theme,
                     isDark: isDark,
-                    onTap: () {},
+                    onTap: () {
+                      // TODO: Navigate to Meal Notes screen
+                    },
                   ),
                 ],
               ),
@@ -203,36 +205,40 @@ class Dashboard extends StatelessWidget {
     required bool isDark,
     required VoidCallback onTap,
   }) {
-    return Container(
-      decoration: BoxDecoration(
-        color: theme.colorScheme.surface,
-        borderRadius: BorderRadius.circular(16),
-        boxShadow: [
-          if (!isDark)
-            BoxShadow(
-              color: Colors.black.withOpacity(0.05),
-              blurRadius: 6,
-              offset: const Offset(0, 3),
-            ),
-        ],
-      ),
-      child: Center(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            CircleAvatar(
-              backgroundColor: theme.colorScheme.primary.withOpacity(0.15),
-              radius: 28,
-              child: Icon(icon, size: 30, color: theme.colorScheme.primary),
-            ),
-            const SizedBox(height: 10),
-            Text(
-              title,
-              style: theme.textTheme.bodyLarge?.copyWith(
-                fontWeight: FontWeight.bold,
+    return InkWell(
+      borderRadius: BorderRadius.circular(16),
+      onTap: onTap,
+      child: Container(
+        decoration: BoxDecoration(
+          color: theme.colorScheme.surface,
+          borderRadius: BorderRadius.circular(16),
+          boxShadow: [
+            if (!isDark)
+              BoxShadow(
+                color: Colors.black.withOpacity(0.05),
+                blurRadius: 6,
+                offset: const Offset(0, 3),
               ),
-            ),
           ],
+        ),
+        child: Center(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              CircleAvatar(
+                backgroundColor: theme.colorScheme.primary.withOpacity(0.15),
+                radius: 28,
+                child: Icon(icon, size: 30, color: theme.colorScheme.primary),
+              ),
+              const SizedBox(height: 10),
+              Text(
+                title,
+                style: theme.textTheme.bodyLarge?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

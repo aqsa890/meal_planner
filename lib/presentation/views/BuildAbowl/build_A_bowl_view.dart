@@ -13,11 +13,16 @@ class BuildABowlScreen extends StatefulWidget {
 class _BuildABowlScreenState extends State<BuildABowlScreen> {
   final List<Map<String, String>> _meals = [];
 
+  /// Open Add/Edit Meal Dialog
   void _openMealDialog({int? index}) {
     showDialog(
       context: context,
-      builder:
-          (_) => MealFormDialog(
+      builder: (_) {
+        return Dialog(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: MealFormDialog(
             initialMeal: index != null ? _meals[index] : null,
             onSubmit: (meal) {
               setState(() {
@@ -29,9 +34,12 @@ class _BuildABowlScreenState extends State<BuildABowlScreen> {
               });
             },
           ),
+        );
+      },
     );
   }
 
+  /// Delete a meal
   void _deleteMeal(int index) {
     setState(() => _meals.removeAt(index));
   }
@@ -54,6 +62,8 @@ class _BuildABowlScreenState extends State<BuildABowlScreen> {
               ),
             ),
             const SizedBox(height: 20),
+
+            /// Meal List
             Expanded(
               child:
                   _meals.isEmpty
@@ -80,6 +90,8 @@ class _BuildABowlScreenState extends State<BuildABowlScreen> {
           ],
         ),
       ),
+
+      /// Floating Add Button
       floatingActionButton: FloatingActionButton(
         onPressed: () => _openMealDialog(),
         backgroundColor: theme.colorScheme.primary,
