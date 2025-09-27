@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meal_planner/presentation/views/BuildAbowl/build_A_bowl_view.dart';
 import 'package:meal_planner/presentation/views/CalculateCalories/calculateCalories_view.dart';
+import 'package:meal_planner/presentation/views/Nutrition/nutrition_view.dart';
 import '../../../core/themes/app_theme.dart';
 
 class Dashboard extends StatelessWidget {
@@ -177,7 +178,12 @@ class Dashboard extends StatelessWidget {
                     theme: theme,
                     isDark: isDark,
                     onTap: () {
-                      // TODO: Navigate to Nutrition screen
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => NutritionView(),
+                        ),
+                      );
                     },
                   ),
                   _buildFeatureCard(

@@ -6,7 +6,6 @@ class OnboardingService {
   static const String _boxName = 'userPreferencesBox';
 
   static Future<void> init() async {
-    Hive.registerAdapter(UserPreferencesAdapter());
     _box = await Hive.openBox<UserPreferences>(_boxName);
   }
 
