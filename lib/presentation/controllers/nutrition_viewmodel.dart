@@ -1,7 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:meal_planner/core/repositories/nutrition_repository.dart';
+import 'package:meal_planner/data/repositories/nutrition_repository.dart';
 import '../../data/models/nutrition_plan.dart';
-import '../../data/models/user_preferences.dart';
 
 class NutritionViewModel extends ChangeNotifier {
   final NutritionRepository _repository;

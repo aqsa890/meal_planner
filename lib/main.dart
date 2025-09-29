@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:meal_planner/core/themes/app_theme.dart';
 import 'package:meal_planner/data/models/nutrition_plan.dart';
+import 'package:meal_planner/data/models/tip_model.dart';
 import 'package:meal_planner/data/models/user_preferences.dart';
 import 'package:meal_planner/presentation/views/Home/home_view.dart';
 import 'package:meal_planner/presentation/views/onboarding/onboarding_view.dart';
@@ -16,10 +17,12 @@ void main() async {
   // Register Adapters (make sure .g.dart files are generated)
   Hive.registerAdapter(UserPreferencesAdapter());
   Hive.registerAdapter(NutritionPlanAdapter());
+  Hive.registerAdapter(TipModelAdapter());
 
   // Open boxes (must match your code everywhere)
   await Hive.openBox<UserPreferences>('userPreferencesBox');
   await Hive.openBox<NutritionPlan>('nutritionPlansBox');
+
   await OnboardingService.init(); // initializes Hive box and loads data
 
   runApp(const MyApp());

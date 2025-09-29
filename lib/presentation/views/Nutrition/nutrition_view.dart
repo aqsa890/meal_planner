@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
-import 'package:meal_planner/core/repositories/nutrition_repository.dart';
+import 'package:meal_planner/data/repositories/nutrition_repository.dart';
 import 'package:meal_planner/data/models/nutrition_plan.dart';
 import 'package:meal_planner/data/models/user_preferences.dart';
 import 'package:meal_planner/presentation/views/goal_selection/goalSelection_view.dart';
-import 'package:meal_planner/presentation/views/onboarding/onboarding_view.dart';
 
 class NutritionView extends StatefulWidget {
   const NutritionView({super.key});

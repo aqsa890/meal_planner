@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:meal_planner/presentation/views/BuildAbowl/build_A_bowl_view.dart';
 import 'package:meal_planner/presentation/views/CalculateCalories/calculateCalories_view.dart';
 import 'package:meal_planner/presentation/views/Nutrition/nutrition_view.dart';
+import 'package:meal_planner/presentation/views/Tip/tip_view.dart';
 import '../../../core/themes/app_theme.dart';
 
 class Dashboard extends StatelessWidget {
@@ -154,9 +155,7 @@ class Dashboard extends StatelessWidget {
                     title: "CookBook",
                     theme: theme,
                     isDark: isDark,
-                    onTap: () {
-                      // TODO: Navigate to CookBook screen
-                    },
+                    onTap: () {},
                   ),
                   _buildFeatureCard(
                     icon: Icons.rice_bowl,
@@ -188,11 +187,14 @@ class Dashboard extends StatelessWidget {
                   ),
                   _buildFeatureCard(
                     icon: Icons.note_alt,
-                    title: "Meal Notes",
+                    title: "Tips & Recommendations",
                     theme: theme,
                     isDark: isDark,
                     onTap: () {
-                      // TODO: Navigate to Meal Notes screen
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => TipsScreen()),
+                      );
                     },
                   ),
                 ],
