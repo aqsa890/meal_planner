@@ -22,15 +22,14 @@ class TipModelAdapter extends TypeAdapter<TipModel> {
       description: fields[2] as String,
       category: fields[3] as String,
       icon: fields[4] as String,
-      isFavorite: fields[5] as bool,
-      createdAt: fields[6] as DateTime,
+      createdAt: fields[5] as DateTime,
     );
   }
 
   @override
   void write(BinaryWriter writer, TipModel obj) {
     writer
-      ..writeByte(7)
+      ..writeByte(6)
       ..writeByte(0)
       ..write(obj.id)
       ..writeByte(1)
@@ -42,8 +41,6 @@ class TipModelAdapter extends TypeAdapter<TipModel> {
       ..writeByte(4)
       ..write(obj.icon)
       ..writeByte(5)
-      ..write(obj.isFavorite)
-      ..writeByte(6)
       ..write(obj.createdAt);
   }
 

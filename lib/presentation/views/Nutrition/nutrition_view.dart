@@ -77,43 +77,43 @@ class _NutritionViewState extends State<NutritionView> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Nutrition Plan"),
-        actions: [
-          IconButton(icon: const Icon(Icons.refresh), onPressed: _loadPlan),
-        ],
+        // actions: [
+        //   IconButton(icon: const Icon(Icons.refresh), onPressed: _loadPlan),
+        // ],
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            _buildCard("🎯 Goal", _plan!.goal, Icons.flag, Colors.deepPurple),
+            _buildCard("Goal", _plan!.goal, Icons.flag, Colors.deepPurple),
             if (_plan!.disease != null && _plan!.disease!.isNotEmpty)
               _buildCard(
-                "⚕️ Disease",
+                "Disease",
                 _plan!.disease!,
                 Icons.healing,
                 Colors.redAccent,
               ),
             _buildCard(
-              "💧 Water Intake",
+              "Water Intake",
               _plan!.water,
               Icons.local_drink,
               Colors.blue,
             ),
             _buildCard(
-              "🚶 Steps",
+              "Steps",
               _plan!.steps,
               Icons.directions_walk,
               Colors.green,
             ),
             _buildCard(
-              "🏋️ Exercises",
+              "Exercises",
               _plan!.exercise,
               Icons.fitness_center,
               Colors.orange,
             ),
             _buildCard(
-              "🥤 Water Types",
+              "Water Types",
               _plan!.waterTypes,
               Icons.local_cafe,
               Colors.teal,

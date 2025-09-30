@@ -105,17 +105,6 @@ class _TipsScreenState extends State<TipsScreen> {
     _applyFilters();
   }
 
-  /// Toggle favorite status of a tip
-  Future<void> _toggleFavorite(String tipId) async {
-    final success = await _tipsService.toggleFavorite(tipId);
-
-    if (success) {
-      // Reload tips to reflect changes
-      _allTips = await _tipsService.getAllTips();
-      _applyFilters();
-    }
-  }
-
   /// Clear all filters and reset to default state
   void _clearFilters() {
     setState(() {
@@ -269,7 +258,7 @@ class _TipsScreenState extends State<TipsScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Header with icon and favorite button
+              // Header with icon
               Row(
                 children: [
                   // Icon
@@ -321,14 +310,6 @@ class _TipsScreenState extends State<TipsScreen> {
                         ),
                       ],
                     ),
-                  ),
-                  // Favorite button
-                  IconButton(
-                    icon: Icon(
-                      tip.isFavorite ? Icons.favorite : Icons.favorite_border,
-                      color: tip.isFavorite ? Colors.red : null,
-                    ),
-                    onPressed: () => _toggleFavorite(tip.id),
                   ),
                 ],
               ),
@@ -465,45 +446,21 @@ class _TipsScreenState extends State<TipsScreen> {
                   style: Theme.of(context).textTheme.bodyLarge,
                 ),
                 const SizedBox(height: 24),
-                // Action buttons
-                Row(
-                  children: [
-                    Expanded(
-                      child: OutlinedButton.icon(
-                        onPressed: () => Navigator.pop(context),
-                        icon: const Icon(Icons.close),
-                        label: const Text('Close'),
-                        style: OutlinedButton.styleFrom(
-                          padding: const EdgeInsets.symmetric(vertical: 12),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(12),
-                          ),
-                        ),
+                // Close button
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton.icon(
+                    onPressed: () => Navigator.pop(context),
+                    icon: const Icon(Icons.close),
+                    label: const Text('Close'),
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      backgroundColor: AppTheme.primaryGreen,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
                       ),
                     ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: ElevatedButton.icon(
-                        onPressed: () {
-                          _toggleFavorite(tip.id);
-                          Navigator.pop(context);
-                        },
-                        icon: Icon(
-                          tip.isFavorite
-                              ? Icons.favorite
-                              : Icons.favorite_border,
-                        ),
-                        label: Text(tip.isFavorite ? 'Unfavorite' : 'Favorite'),
-                        style: ElevatedButton.styleFrom(
-                          padding: const EdgeInsets.symmetric(vertical: 12),
-                          backgroundColor: AppTheme.secondaryGreen,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(12),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
+                  ),
                 ),
                 SizedBox(height: MediaQuery.of(context).viewInsets.bottom),
               ],

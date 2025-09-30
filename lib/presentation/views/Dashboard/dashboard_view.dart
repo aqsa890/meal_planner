@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:meal_planner/presentation/views/BuildAbowl/build_A_bowl_view.dart';
 import 'package:meal_planner/presentation/views/CalculateCalories/calculateCalories_view.dart';
+import 'package:meal_planner/presentation/views/Cookbook/cookbook_view.dart';
+import 'package:meal_planner/presentation/views/Favourite/favourite_view.dart';
 import 'package:meal_planner/presentation/views/Nutrition/nutrition_view.dart';
 import 'package:meal_planner/presentation/views/Tip/tip_view.dart';
 import '../../../core/themes/app_theme.dart';
@@ -37,7 +39,12 @@ class Dashboard extends StatelessWidget {
                       color: isDark ? Colors.red[300] : Colors.red,
                     ),
                     onPressed: () {
-                      // TODO: Navigate to favourites page
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => FavoritesScreen(),
+                        ),
+                      );
                     },
                   ),
                 ],
@@ -155,7 +162,14 @@ class Dashboard extends StatelessWidget {
                     title: "CookBook",
                     theme: theme,
                     isDark: isDark,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => CookbookScreen(),
+                        ),
+                      );
+                    },
                   ),
                   _buildFeatureCard(
                     icon: Icons.rice_bowl,
@@ -187,7 +201,7 @@ class Dashboard extends StatelessWidget {
                   ),
                   _buildFeatureCard(
                     icon: Icons.note_alt,
-                    title: "Tips & Recommendations",
+                    title: "           Tips & \nRecommendations",
                     theme: theme,
                     isDark: isDark,
                     onTap: () {

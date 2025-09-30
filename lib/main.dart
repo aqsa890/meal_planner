@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:meal_planner/core/themes/app_theme.dart';
 import 'package:meal_planner/data/models/nutrition_plan.dart';
+import 'package:meal_planner/data/models/recipe_model.dart';
 import 'package:meal_planner/data/models/tip_model.dart';
 import 'package:meal_planner/data/models/user_preferences.dart';
 import 'package:meal_planner/presentation/views/Home/home_view.dart';
@@ -18,6 +19,7 @@ void main() async {
   Hive.registerAdapter(UserPreferencesAdapter());
   Hive.registerAdapter(NutritionPlanAdapter());
   Hive.registerAdapter(TipModelAdapter());
+  Hive.registerAdapter(RecipeAdapter());
 
   // Open boxes (must match your code everywhere)
   await Hive.openBox<UserPreferences>('userPreferencesBox');

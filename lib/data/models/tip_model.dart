@@ -22,9 +22,6 @@ class TipModel extends HiveObject {
   final String icon; // Icon identifier or emoji
 
   @HiveField(5)
-  bool isFavorite;
-
-  @HiveField(6)
   final DateTime createdAt;
 
   TipModel({
@@ -33,7 +30,6 @@ class TipModel extends HiveObject {
     required this.description,
     required this.category,
     required this.icon,
-    this.isFavorite = false,
     required this.createdAt,
   });
 
@@ -45,7 +41,6 @@ class TipModel extends HiveObject {
       description: json['description'] as String,
       category: json['category'] as String,
       icon: json['icon'] as String,
-      isFavorite: json['isFavorite'] as bool? ?? false,
       createdAt: DateTime.parse(json['createdAt'] as String),
     );
   }
@@ -58,7 +53,6 @@ class TipModel extends HiveObject {
       'description': description,
       'category': category,
       'icon': icon,
-      'isFavorite': isFavorite,
       'createdAt': createdAt.toIso8601String(),
     };
   }
@@ -70,7 +64,6 @@ class TipModel extends HiveObject {
     String? description,
     String? category,
     String? icon,
-    bool? isFavorite,
     DateTime? createdAt,
   }) {
     return TipModel(
@@ -79,7 +72,6 @@ class TipModel extends HiveObject {
       description: description ?? this.description,
       category: category ?? this.category,
       icon: icon ?? this.icon,
-      isFavorite: isFavorite ?? this.isFavorite,
       createdAt: createdAt ?? this.createdAt,
     );
   }
