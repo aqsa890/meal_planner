@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meal_planner/presentation/views/BuildAbowl/build_A_bowl_view.dart';
+import 'package:meal_planner/presentation/views/NoteaMeal/note_a_meal.dart';
 import 'package:meal_planner/presentation/views/CalculateCalories/calculateCalories_view.dart';
 import 'package:meal_planner/presentation/views/Cookbook/cookbook_view.dart';
 import 'package:meal_planner/presentation/views/Favourite/favourite_view.dart';
@@ -180,7 +180,7 @@ class Dashboard extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (_) => const BuildABowlScreen(),
+                          builder: (_) => const NoteAMealScreen(),
                         ),
                       );
                     },

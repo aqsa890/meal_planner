@@ -10,45 +10,45 @@ class HomeView extends StatelessWidget {
     final colorScheme = theme.colorScheme;
 
     return Scaffold(
-      body: Column(
-        children: [
-          // Top image with fixed height
-          SizedBox(
-            height: MediaQuery.of(context).size.height * 0.53,
-            width: double.infinity,
-            child: Stack(
-              children: [
-                Image.asset(
-                  "assets/images/meal1.jpg",
-                  fit: BoxFit.cover,
-                  width: double.infinity,
-                ),
-                // Gradient fade at bottom of image
-                Positioned.fill(
-                  child: Align(
-                    alignment: Alignment.bottomCenter,
-                    child: Container(
-                      height: 100,
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          begin: Alignment.topCenter,
-                          end: Alignment.bottomCenter,
-                          colors: [
-                            Colors.transparent,
-                            theme.scaffoldBackgroundColor,
-                          ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            // Top image with fixed height
+            SizedBox(
+              height: MediaQuery.of(context).size.height * 0.53,
+              width: double.infinity,
+              child: Stack(
+                children: [
+                  Image.asset(
+                    "assets/images/meal1.jpg",
+                    fit: BoxFit.cover,
+                    width: double.infinity,
+                  ),
+                  // Gradient fade at bottom of image
+                  Positioned.fill(
+                    child: Align(
+                      alignment: Alignment.bottomCenter,
+                      child: Container(
+                        height: 100,
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            begin: Alignment.topCenter,
+                            end: Alignment.bottomCenter,
+                            colors: [
+                              Colors.transparent,
+                              theme.scaffoldBackgroundColor,
+                            ],
+                          ),
                         ),
                       ),
                     ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
-          ),
 
-          // Bottom content
-          Expanded(
-            child: Padding(
+            // Bottom content
+            Padding(
               padding: const EdgeInsets.all(24),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -145,8 +145,8 @@ class HomeView extends StatelessWidget {
                 ],
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

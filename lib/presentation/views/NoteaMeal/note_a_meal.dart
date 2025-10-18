@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:meal_planner/presentation/widgets/meal_card.dart';
 import 'package:meal_planner/presentation/widgets/meal_form_dialogue.dart';
 
-/// ---------------- Build-a-Bowl Screen ----------------
-class BuildABowlScreen extends StatefulWidget {
-  const BuildABowlScreen({super.key});
+/// ---------------- Note-a-Meal Screen ----------------
+class NoteAMealScreen extends StatefulWidget {
+  const NoteAMealScreen({super.key});
 
   @override
-  State<BuildABowlScreen> createState() => _BuildABowlScreenState();
+  State<NoteAMealScreen> createState() => _NoteAMealScreenState();
 }
 
-class _BuildABowlScreenState extends State<BuildABowlScreen> {
+class _NoteAMealScreenState extends State<NoteAMealScreen> {
   final List<Map<String, String>> _meals = [];
 
   /// Open Add/Edit Meal Dialog
@@ -44,14 +44,14 @@ class _BuildABowlScreenState extends State<BuildABowlScreen> {
     final theme = Theme.of(context);
 
     return Scaffold(
-      appBar: AppBar(title: const Text("Build-a-Bowl"), centerTitle: true),
+      appBar: AppBar(title: const Text("Note-a-Meal"), centerTitle: true),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              "Wanna build a bowl for yourself?",
+              "Wanna note a meal for yourself?",
               style: theme.textTheme.headlineSmall?.copyWith(
                 fontWeight: FontWeight.bold,
               ),
