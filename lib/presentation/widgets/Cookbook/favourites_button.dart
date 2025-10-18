@@ -6,10 +6,10 @@ class FavoriteButton extends StatelessWidget {
   final VoidCallback onToggle;
 
   const FavoriteButton({
-    Key? key,
+    super.key,
     required this.isFavorite,
     required this.onToggle,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -31,11 +31,11 @@ class FavoriteButton extends StatelessWidget {
           onTap: onToggle,
           customBorder: const CircleBorder(),
           child: Padding(
-            padding: const EdgeInsets.all(8),
+            padding: const EdgeInsets.all(5), // Reduced from 8
             child: Icon(
               isFavorite ? Icons.favorite : Icons.favorite_border,
               color: isFavorite ? Colors.red : Colors.grey[700],
-              size: 20,
+              size: 16, // Reduced from 20
             ),
           ),
         ),

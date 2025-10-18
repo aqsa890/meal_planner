@@ -4,8 +4,7 @@ import 'package:flutter/material.dart';
 class CookbookHeader extends StatelessWidget {
   final VoidCallback onResetPressed;
 
-  const CookbookHeader({Key? key, required this.onResetPressed})
-    : super(key: key);
+  const CookbookHeader({super.key, required this.onResetPressed});
 
   @override
   Widget build(BuildContext context) {

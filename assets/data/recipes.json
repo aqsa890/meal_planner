@@ -1,0 +1,3722 @@
+{
+  "recipes": [
+    {
+      "id": "wl_d_1",
+      "name": "Grilled Chicken Salad",
+      "imageUrl": "assets/images/grilled_chicken_salad.jpg",
+      "calories": 320,
+      "protein": 35,
+      "fat": 12,
+      "carbs": 25,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["Lactose free", "Gluten free", "High Protein"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 150g",
+        "Mixed greens - 2 cups",
+        "Cherry tomatoes - 10 pieces",
+        "Cucumber - 1 medium",
+        "Olive oil - 1 tbsp",
+        "Lemon juice - 2 tbsp",
+        "Salt and pepper - to taste"
+      ],
+      "steps": [
+        "Season chicken breast with salt, pepper, and herbs.",
+        "Grill chicken for 6-7 minutes on each side until cooked through.",
+        "Let chicken rest for 5 minutes, then slice.",
+        "Wash and chop all vegetables.",
+        "Combine greens, tomatoes, and cucumber in a bowl.",
+        "Top with sliced chicken.",
+        "Drizzle with olive oil and lemon juice."
+      ]
+    },
+    {
+      "id": "wl_d_2",
+      "name": "Vegetable Stir-Fry",
+      "imageUrl": "assets/images/vegetable_stirfry.jpg",
+      "calories": 280,
+      "protein": 12,
+      "fat": 10,
+      "carbs": 38,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["Vegan", "Dairy free", "Low fat"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Broccoli - 1 cup",
+        "Bell peppers - 1 cup",
+        "Carrots - 1 medium",
+        "Snap peas - 1/2 cup",
+        "Garlic - 2 cloves",
+        "Ginger - 1 tsp",
+        "Soy sauce - 2 tbsp",
+        "Sesame oil - 1 tsp"
+      ],
+      "steps": [
+        "Wash and cut all vegetables into bite-sized pieces.",
+        "Mince garlic and ginger.",
+        "Heat sesame oil in a wok or large pan.",
+        "Add garlic and ginger, stir for 30 seconds.",
+        "Add harder vegetables first.",
+        "Stir-fry for 3-4 minutes.",
+        "Add softer vegetables and soy sauce.",
+        "Cook for 2 more minutes and serve hot."
+      ]
+    },
+    {
+      "id": "wl_d_3",
+      "name": "Zucchini Noodles with Turkey",
+      "imageUrl": "assets/images/zucchini_turkey.jpg",
+      "calories": 295,
+      "protein": 32,
+      "fat": 11,
+      "carbs": 18,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["Low carb", "Gluten free", "High protein"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Ground turkey - 150g",
+        "Zucchini - 2 medium",
+        "Tomato sauce - 1/2 cup",
+        "Garlic - 2 cloves",
+        "Italian herbs - 1 tsp",
+        "Olive oil - 1 tsp"
+      ],
+      "steps": [
+        "Spiralize zucchini into noodles.",
+        "Cook ground turkey in a pan with garlic.",
+        "Add tomato sauce and herbs.",
+        "Simmer for 5 minutes.",
+        "Sauté zucchini noodles for 2 minutes.",
+        "Top with turkey sauce and serve."
+      ]
+    },
+    {
+      "id": "wl_d_4",
+      "name": "Cauliflower Rice Bowl",
+      "imageUrl": "assets/images/cauliflower_rice.jpg",
+      "calories": 270,
+      "protein": 28,
+      "fat": 9,
+      "carbs": 22,
+      "prepTime": 18,
+      "servings": 1,
+      "dietaryTags": ["Low carb", "Gluten free", "Dairy free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Cauliflower rice - 2 cups",
+        "Chicken breast - 120g",
+        "Bell peppers - 1/2 cup",
+        "Onion - 1/4 cup",
+        "Soy sauce - 1 tbsp",
+        "Garlic - 2 cloves"
+      ],
+      "steps": [
+        "Pulse cauliflower in food processor until rice-like.",
+        "Cook chicken and dice.",
+        "Sauté vegetables in pan.",
+        "Add cauliflower rice and cook for 5 minutes.",
+        "Mix in chicken and soy sauce.",
+        "Serve warm."
+      ]
+    },
+    {
+      "id": "wl_d_5",
+      "name": "Greek Yogurt Chicken",
+      "imageUrl": "assets/images/greek_yogurt_chicken.jpg",
+      "calories": 310,
+      "protein": 40,
+      "fat": 10,
+      "carbs": 15,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Low fat", "Gluten free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Chicken breast - 150g",
+        "Greek yogurt - 3 tbsp",
+        "Cucumber - 1 medium",
+        "Dill - 1 tbsp",
+        "Lemon juice - 1 tbsp",
+        "Garlic - 1 clove"
+      ],
+      "steps": [
+        "Marinate chicken in yogurt and spices.",
+        "Grill chicken for 15 minutes.",
+        "Make cucumber salad with dill.",
+        "Slice chicken and serve with salad."
+      ]
+    },
+    {
+      "id": "wl_d_6",
+      "name": "Lentil Soup",
+      "imageUrl": "assets/images/lentil_soup.jpg",
+      "calories": 290,
+      "protein": 18,
+      "fat": 6,
+      "carbs": 42,
+      "prepTime": 35,
+      "servings": 2,
+      "dietaryTags": ["Vegan", "High fiber", "Dairy free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Red lentils - 1 cup",
+        "Carrots - 2 medium",
+        "Celery - 2 stalks",
+        "Onion - 1 medium",
+        "Vegetable broth - 4 cups",
+        "Cumin - 1 tsp"
+      ],
+      "steps": [
+        "Chop all vegetables.",
+        "Sauté vegetables in pot.",
+        "Add lentils and broth.",
+        "Simmer for 25 minutes.",
+        "Blend half for creamy texture.",
+        "Season and serve."
+      ]
+    },
+    {
+      "id": "wl_d_7",
+      "name": "Tuna Lettuce Wraps",
+      "imageUrl": "assets/images/tuna_wraps.jpg",
+      "calories": 265,
+      "protein": 30,
+      "fat": 12,
+      "carbs": 10,
+      "prepTime": 10,
+      "servings": 1,
+      "dietaryTags": ["Low carb", "Quick & Easy", "High protein"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Canned tuna - 150g",
+        "Lettuce leaves - 6 large",
+        "Celery - 2 stalks",
+        "Greek yogurt - 2 tbsp",
+        "Dijon mustard - 1 tsp",
+        "Lemon juice - 1 tbsp"
+      ],
+      "steps": [
+        "Drain tuna and flake.",
+        "Mix tuna with yogurt and mustard.",
+        "Dice celery and add to mix.",
+        "Wash lettuce leaves.",
+        "Fill leaves with tuna mixture.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "id": "wl_d_8",
+      "name": "Egg White Frittata",
+      "imageUrl": "assets/images/egg_white_frittata.jpg",
+      "calories": 240,
+      "protein": 28,
+      "fat": 8,
+      "carbs": 15,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Low fat", "Gluten free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Egg whites - 6",
+        "Spinach - 1 cup",
+        "Mushrooms - 1/2 cup",
+        "Cherry tomatoes - 5 pieces",
+        "Feta cheese - 20g",
+        "Olive oil - 1 tsp"
+      ],
+      "steps": [
+        "Preheat oven to 350°F.",
+        "Sauté vegetables in oven-safe pan.",
+        "Whisk egg whites and pour over vegetables.",
+        "Cook on stove for 3 minutes.",
+        "Transfer to oven for 12 minutes.",
+        "Top with feta and serve."
+      ]
+    },
+    {
+      "id": "wl_d_9",
+      "name": "Spicy Shrimp Bowl",
+      "imageUrl": "assets/images/spicy_shrimp.jpg",
+      "calories": 285,
+      "protein": 35,
+      "fat": 9,
+      "carbs": 20,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["Dairy free", "Gluten free", "High protein"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Shrimp - 180g",
+        "Mixed greens - 2 cups",
+        "Avocado - 1/4",
+        "Cherry tomatoes - 8 pieces",
+        "Lime juice - 2 tbsp",
+        "Chili powder - 1 tsp"
+      ],
+      "steps": [
+        "Season shrimp with spices.",
+        "Grill shrimp for 3 minutes per side.",
+        "Prepare salad base with greens.",
+        "Add tomatoes and avocado.",
+        "Top with shrimp and lime juice."
+      ]
+    },
+    {
+      "id": "wl_d_10",
+      "name": "Turkey Meatballs",
+      "imageUrl": "assets/images/turkey_meatballs.jpg",
+      "calories": 305,
+      "protein": 38,
+      "fat": 12,
+      "carbs": 12,
+      "prepTime": 30,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Dairy free", "Low carb"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Ground turkey - 150g",
+        "Almond flour - 2 tbsp",
+        "Egg - 1",
+        "Garlic powder - 1 tsp",
+        "Italian herbs - 1 tsp",
+        "Marinara sauce - 1/2 cup"
+      ],
+      "steps": [
+        "Mix turkey, flour, egg, and spices.",
+        "Form into 8 meatballs.",
+        "Bake at 375°F for 20 minutes.",
+        "Heat marinara sauce.",
+        "Serve meatballs with sauce."
+      ]
+    },
+    {
+      "id": "wl_d_11",
+      "name": "Cod with Green Beans",
+      "imageUrl": "assets/images/cod_green_beans.jpg",
+      "calories": 275,
+      "protein": 36,
+      "fat": 8,
+      "carbs": 18,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["Dairy free", "Gluten free", "Low fat"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Cod fillet - 160g",
+        "Green beans - 2 cups",
+        "Lemon - 1/2",
+        "Garlic - 2 cloves",
+        "Olive oil - 1 tsp",
+        "Herbs - 1 tsp"
+      ],
+      "steps": [
+        "Season cod with herbs and lemon.",
+        "Bake cod at 400°F for 15 minutes.",
+        "Steam green beans for 5 minutes.",
+        "Sauté green beans with garlic.",
+        "Serve cod with beans."
+      ]
+    },
+    {
+      "id": "wl_d_12",
+      "name": "Chicken Lettuce Tacos",
+      "imageUrl": "assets/images/chicken_lettuce_tacos.jpg",
+      "calories": 290,
+      "protein": 34,
+      "fat": 11,
+      "carbs": 15,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["Low carb", "Dairy free", "Quick & Easy"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Ground chicken - 150g",
+        "Lettuce leaves - 8",
+        "Salsa - 1/4 cup",
+        "Avocado - 1/4",
+        "Cilantro - 2 tbsp",
+        "Lime - 1"
+      ],
+      "steps": [
+        "Cook ground chicken with taco spices.",
+        "Wash and dry lettuce leaves.",
+        "Fill leaves with chicken.",
+        "Top with salsa and avocado.",
+        "Garnish with cilantro and lime."
+      ]
+    },
+    {
+      "id": "wl_d_13",
+      "name": "Tofu Scramble",
+      "imageUrl": "assets/images/tofu_scramble.jpg",
+      "calories": 260,
+      "protein": 20,
+      "fat": 14,
+      "carbs": 16,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["Vegan", "Dairy free", "High protein"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Firm tofu - 200g",
+        "Spinach - 1 cup",
+        "Mushrooms - 1/2 cup",
+        "Turmeric - 1/2 tsp",
+        "Nutritional yeast - 2 tbsp",
+        "Garlic - 1 clove"
+      ],
+      "steps": [
+        "Crumble tofu with hands.",
+        "Sauté vegetables in pan.",
+        "Add tofu and turmeric.",
+        "Cook for 5 minutes.",
+        "Add nutritional yeast.",
+        "Serve warm."
+      ]
+    },
+    {
+      "id": "wl_d_14",
+      "name": "Baked Tilapia",
+      "imageUrl": "assets/images/baked_tilapia.jpg",
+      "calories": 270,
+      "protein": 35,
+      "fat": 9,
+      "carbs": 12,
+      "prepTime": 18,
+      "servings": 1,
+      "dietaryTags": ["Low fat", "Gluten free", "Dairy free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Tilapia fillet - 160g",
+        "Broccoli - 1.5 cups",
+        "Lemon - 1/2",
+        "Paprika - 1 tsp",
+        "Olive oil - 1 tsp"
+      ],
+      "steps": [
+        "Season tilapia with paprika.",
+        "Place on baking sheet.",
+        "Add broccoli around fish.",
+        "Drizzle with oil and lemon.",
+        "Bake at 400°F for 15 minutes."
+      ]
+    },
+    {
+      "id": "wl_d_15",
+      "name": "Chicken Veggie Soup",
+      "imageUrl": "assets/images/chicken_veggie_soup.jpg",
+      "calories": 255,
+      "protein": 30,
+      "fat": 7,
+      "carbs": 20,
+      "prepTime": 30,
+      "servings": 2,
+      "dietaryTags": ["Dairy free", "Low fat", "High protein"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 200g",
+        "Celery - 2 stalks",
+        "Carrots - 2 medium",
+        "Onion - 1 medium",
+        "Chicken broth - 4 cups",
+        "Herbs - 1 tsp"
+      ],
+      "steps": [
+        "Dice chicken and vegetables.",
+        "Sauté vegetables in pot.",
+        "Add broth and bring to boil.",
+        "Add chicken and simmer 20 minutes.",
+        "Season with herbs.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": "wl_d_16",
+      "name": "Spinach Mushroom Omelette",
+      "imageUrl": "assets/images/spinach_mushroom_omelette.jpg",
+      "calories": 280,
+      "protein": 26,
+      "fat": 16,
+      "carbs": 10,
+      "prepTime": 12,
+      "servings": 1,
+      "dietaryTags": ["Vegetarian", "Gluten free", "Quick & Easy"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Eggs - 3",
+        "Spinach - 1 cup",
+        "Mushrooms - 1/2 cup",
+        "Feta cheese - 20g",
+        "Olive oil - 1 tsp"
+      ],
+      "steps": [
+        "Beat eggs in bowl.",
+        "Sauté mushrooms and spinach.",
+        "Pour eggs over vegetables.",
+        "Cook until set.",
+        "Top with feta and fold."
+      ]
+    },
+    {
+      "id": "wl_d_17",
+      "name": "Blackened Chicken",
+      "imageUrl": "assets/images/blackened_chicken.jpg",
+      "calories": 300,
+      "protein": 42,
+      "fat": 10,
+      "carbs": 8,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Low carb", "Dairy free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 180g",
+        "Cajun seasoning - 2 tsp",
+        "Mixed vegetables - 2 cups",
+        "Olive oil - 1 tsp"
+      ],
+      "steps": [
+        "Coat chicken with cajun spices.",
+        "Heat cast iron pan.",
+        "Cook chicken 6 minutes per side.",
+        "Steam vegetables.",
+        "Serve chicken with vegetables."
+      ]
+    },
+    {
+      "id": "wl_d_18",
+      "name": "Cabbage Stir-Fry",
+      "imageUrl": "assets/images/cabbage_stirfry.jpg",
+      "calories": 245,
+      "protein": 15,
+      "fat": 9,
+      "carbs": 28,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["Vegan", "Low calorie", "Dairy free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Cabbage - 3 cups",
+        "Tofu - 100g",
+        "Carrots - 1 medium",
+        "Soy sauce - 2 tbsp",
+        "Ginger - 1 tsp",
+        "Sesame oil - 1 tsp"
+      ],
+      "steps": [
+        "Chop cabbage and carrots.",
+        "Cube tofu.",
+        "Stir-fry tofu until golden.",
+        "Add vegetables and cook.",
+        "Add soy sauce and ginger.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": "wl_d_19",
+      "name": "Turkey Zucchini Boats",
+      "imageUrl": "assets/images/turkey_zucchini_boats.jpg",
+      "calories": 295,
+      "protein": 33,
+      "fat": 12,
+      "carbs": 16,
+      "prepTime": 35,
+      "servings": 1,
+      "dietaryTags": ["Low carb", "High protein", "Gluten free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Zucchini - 2 medium",
+        "Ground turkey - 150g",
+        "Tomato sauce - 1/3 cup",
+        "Onion - 1/4 cup",
+        "Mozzarella - 20g",
+        "Italian herbs - 1 tsp"
+      ],
+      "steps": [
+        "Halve zucchini and scoop out centers.",
+        "Cook turkey with onion and herbs.",
+        "Mix in tomato sauce.",
+        "Fill zucchini boats with mixture.",
+        "Top with cheese.",
+        "Bake at 375°F for 25 minutes."
+      ]
+    },
+    {
+      "id": "wl_d_20",
+      "name": "Grilled Tuna Steak",
+      "imageUrl": "assets/images/grilled_tuna.jpg",
+      "calories": 310,
+      "protein": 40,
+      "fat": 13,
+      "carbs": 8,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Omega-3", "Dairy free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Tuna steak - 180g",
+        "Asparagus - 10 spears",
+        "Soy sauce - 1 tbsp",
+        "Ginger - 1 tsp",
+        "Sesame seeds - 1 tsp"
+      ],
+      "steps": [
+        "Marinate tuna in soy sauce and ginger.",
+        "Grill tuna 3 minutes per side.",
+        "Grill asparagus for 5 minutes.",
+        "Top tuna with sesame seeds.",
+        "Serve together."
+      ]
+    },
+    {
+      "id": "wl_d_21",
+      "name": "Chicken Cacciatore",
+      "imageUrl": "assets/images/chicken_cacciatore.jpg",
+      "calories": 315,
+      "protein": 38,
+      "fat": 11,
+      "carbs": 18,
+      "prepTime": 40,
+      "servings": 1,
+      "dietaryTags": ["Dairy free", "Gluten free", "Mediterranean"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Chicken thigh - 150g",
+        "Tomatoes - 1 cup",
+        "Bell peppers - 1/2 cup",
+        "Mushrooms - 1/2 cup",
+        "Olives - 5 pieces",
+        "Italian herbs - 1 tsp"
+      ],
+      "steps": [
+        "Brown chicken in pan.",
+        "Remove chicken and sauté vegetables.",
+        "Add tomatoes and herbs.",
+        "Return chicken to pan.",
+        "Simmer for 25 minutes.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": "wl_d_22",
+      "name": "Egg Drop Soup",
+      "imageUrl": "assets/images/egg_drop_soup.jpg",
+      "calories": 235,
+      "protein": 18,
+      "fat": 10,
+      "carbs": 16,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["Quick & Easy", "Low calorie", "Dairy free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Chicken broth - 2 cups",
+        "Eggs - 2",
+        "Scallions - 2 stalks",
+        "Ginger - 1 tsp",
+        "Soy sauce - 1 tbsp"
+      ],
+      "steps": [
+        "Heat broth with ginger.",
+        "Beat eggs in bowl.",
+        "Slowly pour eggs into boiling broth.",
+        "Stir gently to create ribbons.",
+        "Add soy sauce and scallions.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "id": "wl_d_23",
+      "name": "Herb-Crusted Pork",
+      "imageUrl": "assets/images/herb_crusted_pork.jpg",
+      "calories": 305,
+      "protein": 40,
+      "fat": 12,
+      "carbs": 10,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Gluten free", "Dairy free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Pork tenderloin - 150g",
+        "Mixed herbs - 2 tbsp",
+        "Dijon mustard - 1 tsp",
+        "Green beans - 2 cups",
+        "Garlic - 1 clove"
+      ],
+      "steps": [
+        "Coat pork with mustard and herbs.",
+        "Roast at 400°F for 20 minutes.",
+        "Steam green beans.",
+        "Sauté beans with garlic.",
+        "Slice pork and serve with beans."
+      ]
+    },
+    {
+      "id": "wl_d_24",
+      "name": "Chickpea Salad",
+      "imageUrl": "assets/images/chickpea_salad.jpg",
+      "calories": 285,
+      "protein": 14,
+      "fat": 10,
+      "carbs": 38,
+      "prepTime": 10,
+      "servings": 1,
+      "dietaryTags": ["Vegan", "High fiber", "Quick & Easy"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Chickpeas - 1 cup",
+        "Cucumber - 1 medium",
+        "Tomatoes - 1/2 cup",
+        "Red onion - 1/4 cup",
+        "Lemon juice - 2 tbsp",
+        "Parsley - 2 tbsp"
+      ],
+      "steps": [
+        "Drain and rinse chickpeas.",
+        "Dice all vegetables.",
+        "Combine in bowl.",
+        "Dress with lemon juice.",
+        "Add parsley and toss.",
+        "Serve chilled."
+      ]
+    },
+    {
+      "id": "wl_d_25",
+      "name": "Balsamic Chicken",
+      "imageUrl": "assets/images/balsamic_chicken.jpg",
+      "calories": 300,
+      "protein": 38,
+      "fat": 11,
+      "carbs": 14,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["Dairy free", "Gluten free", "High protein"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 160g",
+        "Balsamic vinegar - 2 tbsp",
+        "Cherry tomatoes - 1 cup",
+        "Spinach - 2 cups",
+        "Garlic - 2 cloves",
+        "Basil - 5 leaves"
+      ],
+      "steps": [
+        "Marinate chicken in balsamic vinegar.",
+        "Grill chicken for 12 minutes.",
+        "Sauté tomatoes and garlic.",
+        "Add spinach until wilted.",
+        "Slice chicken and serve over vegetables.",
+        "Garnish with basil."
+      ]
+    },
+    {
+      "id": "wl_h_1",
+      "name": "Baked Salmon with Asparagus",
+      "imageUrl": "assets/images/baked_salmon.jpg",
+      "calories": 340,
+      "protein": 38,
+      "fat": 18,
+      "carbs": 12,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["Gluten free", "Dairy free", "Omega-3 rich"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Salmon fillet - 150g",
+        "Asparagus - 10 spears",
+        "Olive oil - 1 tbsp",
+        "Lemon - 1/2",
+        "Garlic - 2 cloves",
+        "Herbs - 1 tbsp"
+      ],
+      "steps": [
+        "Preheat oven to 400°F.",
+        "Place salmon on baking sheet.",
+        "Arrange asparagus around salmon.",
+        "Drizzle with oil and lemon.",
+        "Sprinkle garlic and herbs.",
+        "Bake for 15-18 minutes."
+      ]
+    },
+    {
+      "id": "wl_h_2",
+      "name": "Quinoa Buddha Bowl",
+      "imageUrl": "assets/images/buddha_bowl.jpg",
+      "calories": 360,
+      "protein": 15,
+      "fat": 14,
+      "carbs": 45,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["Vegan", "Gluten free", "High fiber"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Quinoa - 1/2 cup cooked",
+        "Chickpeas - 1/2 cup",
+        "Spinach - 1 cup",
+        "Cherry tomatoes - 6 pieces",
+        "Avocado - 1/4",
+        "Tahini - 1 tbsp",
+        "Lemon juice - 1 tbsp"
+      ],
+      "steps": [
+        "Cook quinoa according to package instructions.",
+        "Roast chickpeas at 400°F for 20 minutes.",
+        "Wash and prepare all vegetables.",
+        "Arrange quinoa as base in a bowl.",
+        "Top with spinach, tomatoes, and chickpeas.",
+        "Add sliced avocado.",
+        "Mix tahini with lemon juice and drizzle over bowl."
+      ]
+    },
+    {
+      "id": "wl_h_3",
+      "name": "Grilled Trout",
+      "imageUrl": "assets/images/grilled_trout.jpg",
+      "calories": 315,
+      "protein": 36,
+      "fat": 16,
+      "carbs": 8,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["Omega-3", "Low sodium", "Dairy free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Trout fillet - 160g",
+        "Kale - 2 cups",
+        "Lemon - 1",
+        "Dill - 1 tbsp",
+        "Olive oil - 1 tsp"
+      ],
+      "steps": [
+        "Season trout with dill and lemon.",
+        "Grill for 4 minutes per side.",
+        "Massage kale with olive oil.",
+        "Squeeze lemon over kale.",
+        "Serve fish over kale salad."
+      ]
+    },
+    {
+      "id": "wl_h_4",
+      "name": "Lemon Herb Chicken",
+      "imageUrl": "assets/images/lemon_herb_chicken.jpg",
+      "calories": 295,
+      "protein": 40,
+      "fat": 10,
+      "carbs": 10,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["Low sodium", "High protein", "Gluten free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 160g",
+        "Lemon - 1",
+        "Rosemary - 2 sprigs",
+        "Brussels sprouts - 2 cups",
+        "Olive oil - 1 tsp"
+      ],
+      "steps": [
+        "Marinate chicken in lemon and herbs.",
+        "Bake at 375°F for 20 minutes.",
+        "Roast Brussels sprouts.",
+        "Slice chicken.",
+        "Serve together."
+      ]
+    },
+    {
+      "id": "wl_h_5",
+      "name": "Black Bean Bowl",
+      "imageUrl": "assets/images/black_bean_bowl.jpg",
+      "calories": 330,
+      "protein": 18,
+      "fat": 8,
+      "carbs": 48,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["Vegan", "High fiber", "Low sodium"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Black beans - 1 cup",
+        "Brown rice - 1/2 cup cooked",
+        "Bell peppers - 1/2 cup",
+        "Corn - 1/4 cup",
+        "Lime juice - 2 tbsp",
+        "Cilantro - 2 tbsp"
+      ],
+      "steps": [
+        "Heat black beans.",
+        "Cook brown rice.",
+        "Sauté peppers and corn.",
+        "Combine all ingredients.",
+        "Top with lime and cilantro."
+      ]
+    },
+    {
+      "id": "wl_h_6",
+      "name": "Mediterranean Cod",
+      "imageUrl": "assets/images/med_cod.jpg",
+      "calories": 280,
+      "protein": 35,
+      "fat": 9,
+      "carbs": 15,
+      "prepTime": 22,
+      "servings": 1,
+      "dietaryTags": ["Mediterranean", "Low sodium", "Omega-3"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Cod fillet - 160g",
+        "Cherry tomatoes - 1 cup",
+        "Olives - 8 pieces",
+        "Capers - 1 tbsp",
+        "Spinach - 2 cups"
+      ],
+      "steps": [
+        "Place cod in baking dish.",
+        "Top with tomatoes, olives, capers.",
+        "Bake at 400°F for 18 minutes.",
+        "Wilt spinach in pan.",
+        "Serve cod over spinach."
+      ]
+    },
+    {
+      "id": "wl_h_7",
+      "name": "Vegetable Curry",
+      "imageUrl": "assets/images/veg_curry.jpg",
+      "calories": 310,
+      "protein": 12,
+      "fat": 11,
+      "carbs": 42,
+      "prepTime": 30,
+      "servings": 2,
+      "dietaryTags": ["Vegan", "Spicy", "Low sodium"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Cauliflower - 2 cups",
+        "Chickpeas - 1 cup",
+        "Coconut milk - 1/2 cup",
+        "Curry powder - 2 tsp",
+        "Spinach - 2 cups"
+      ],
+      "steps": [
+        "Sauté curry powder.",
+        "Add cauliflower and chickpeas.",
+        "Pour in coconut milk.",
+        "Simmer for 15 minutes.",
+        "Add spinach and cook until wilted."
+      ]
+    },
+    {
+      "id": "wl_h_8",
+      "name": "Almond-Crusted Chicken",
+      "imageUrl": "assets/images/almond_chicken.jpg",
+      "calories": 325,
+      "protein": 42,
+      "fat": 14,
+      "carbs": 8,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["Gluten free", "High protein", "Low carb"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Chicken breast - 160g",
+        "Almond flour - 3 tbsp",
+        "Egg white - 1",
+        "Green beans - 2 cups",
+        "Lemon - 1/2"
+      ],
+      "steps": [
+        "Coat chicken in egg white then almonds.",
+        "Bake at 375°F for 22 minutes.",
+        "Steam green beans.",
+        "Serve with lemon wedges."
+      ]
+    },
+    {
+      "id": "wl_h_9",
+      "name": "Tomato Basil Soup",
+      "imageUrl": "assets/images/tomato_basil_soup.jpg",
+      "calories": 245,
+      "protein": 8,
+      "fat": 9,
+      "carbs": 32,
+      "prepTime": 25,
+      "servings": 2,
+      "dietaryTags": ["Vegan", "Low sodium", "Comfort food"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Tomatoes - 4 large",
+        "Basil - 1/2 cup",
+        "Onion - 1 medium",
+        "Garlic - 3 cloves",
+        "Vegetable broth - 2 cups"
+      ],
+      "steps": [
+        "Roast tomatoes and garlic.",
+        "Sauté onion.",
+        "Blend all with broth.",
+        "Simmer for 10 minutes.",
+        "Add fresh basil before serving."
+      ]
+    },
+    {
+      "id": "wl_h_10",
+      "name": "Herb Grilled Mackerel",
+      "imageUrl": "assets/images/grilled_mackerel.jpg",
+      "calories": 335,
+      "protein": 38,
+      "fat": 18,
+      "carbs": 6,
+      "prepTime": 18,
+      "servings": 1,
+      "dietaryTags": ["Omega-3", "High protein", "Low sodium"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Mackerel fillet - 150g",
+        "Mixed herbs - 2 tbsp",
+        "Arugula - 2 cups",
+        "Cucumber - 1 medium",
+        "Lemon - 1"
+      ],
+      "steps": [
+        "Rub herbs on mackerel.",
+        "Grill for 4 minutes per side.",
+        "Make salad with arugula and cucumber.",
+        "Serve fish over salad.",
+        "Squeeze lemon over dish."
+      ]
+    },
+    {
+      "id": "wl_h_11",
+      "name": "Stuffed Bell Peppers",
+      "imageUrl": "assets/images/stuffed_peppers.jpg",
+      "calories": 305,
+      "protein": 20,
+      "fat": 8,
+      "carbs": 38,
+      "prepTime": 40,
+      "servings": 1,
+      "dietaryTags": ["High fiber", "Gluten free", "Low sodium"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Bell peppers - 2 large",
+        "Ground turkey - 100g",
+        "Brown rice - 1/3 cup cooked",
+        "Tomato sauce - 1/2 cup",
+        "Onion - 1/4 cup"
+      ],
+      "steps": [
+        "Cut tops off peppers and remove seeds.",
+        "Cook turkey with onion.",
+        "Mix turkey, rice, and sauce.",
+        "Stuff peppers with mixture.",
+        "Bake at 375°F for 30 minutes."
+      ]
+    },
+    {
+      "id": "wl_h_12",
+      "name": "Shrimp and Avocado Salad",
+      "imageUrl": "assets/images/shrimp_avocado_salad.jpg",
+      "calories": 320,
+      "protein": 32,
+      "fat": 16,
+      "carbs": 14,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["Dairy free", "Quick & Easy", "High protein"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Shrimp - 180g",
+        "Avocado - 1/2",
+        "Mixed greens - 3 cups",
+        "Cucumber - 1 medium",
+        "Lime juice - 2 tbsp"
+      ],
+      "steps": [
+        "Grill shrimp with lime.",
+        "Dice avocado and cucumber.",
+        "Toss greens with vegetables.",
+        "Top with shrimp.",
+        "Dress with lime juice."
+      ]
+    },
+    {
+      "id": "wl_h_13",
+      "name": "Eggplant Parmesan",
+      "imageUrl": "assets/images/eggplant_parm.jpg",
+      "calories": 295,
+      "protein": 16,
+      "fat": 12,
+      "carbs": 32,
+      "prepTime": 35,
+      "servings": 1,
+      "dietaryTags": ["Vegetarian", "Italian", "Comfort food"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Eggplant - 1 medium",
+        "Marinara sauce - 3/4 cup",
+        "Mozzarella - 30g",
+        "Parmesan - 15g",
+        "Basil - 5 leaves"
+      ],
+      "steps": [
+        "Slice eggplant and brush with oil.",
+        "Bake at 400°F for 15 minutes.",
+        "Layer with sauce and cheese.",
+        "Bake for 15 more minutes.",
+        "Garnish with basil."
+      ]
+    },
+    {
+      "id": "wl_h_14",
+      "name": "White Bean Salad",
+      "imageUrl": "assets/images/white_bean_salad.jpg",
+      "calories": 275,
+      "protein": 14,
+      "fat": 8,
+      "carbs": 38,
+      "prepTime": 10,
+      "servings": 1,
+      "dietaryTags": ["Vegan", "High fiber", "Quick & Easy"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "White beans - 1 cup",
+        "Tomatoes - 1 cup",
+        "Red onion - 1/4 cup",
+        "Parsley - 3 tbsp",
+        "Lemon juice - 2 tbsp",
+        "Olive oil - 1 tsp"
+      ],
+      "steps": [
+        "Drain and rinse beans.",
+        "Chop vegetables.",
+        "Combine all ingredients.",
+        "Dress with lemon and oil.",
+        "Chill before serving."
+      ]
+    },
+    {
+      "id": "wl_h_15",
+      "name": "Halibut with Vegetables",
+      "imageUrl": "assets/images/halibut_veg.jpg",
+      "calories": 300,
+      "protein": 40,
+      "fat": 10,
+      "carbs": 12,
+      "prepTime": 22,
+      "servings": 1,
+      "dietaryTags": ["Low fat", "High protein", "Omega-3"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Halibut fillet - 160g",
+        "Zucchini - 1 medium",
+        "Yellow squash - 1 medium",
+        "Cherry tomatoes - 1 cup",
+        "Herbs de Provence - 1 tsp"
+      ],
+      "steps": [
+        "Season halibut with herbs.",
+        "Chop vegetables.",
+        "Place all on baking sheet.",
+        "Roast at 400°F for 18 minutes.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "id": "wl_h_16",
+      "name": "Mushroom Barley Soup",
+      "imageUrl": "assets/images/mushroom_barley.jpg",
+      "calories": 260,
+      "protein": 10,
+      "fat": 6,
+      "carbs": 42,
+      "prepTime": 45,
+      "servings": 2,
+      "dietaryTags": ["Vegan", "High fiber", "Comfort food"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Pearl barley - 1/2 cup",
+        "Mushrooms - 2 cups",
+        "Carrots - 2 medium",
+        "Celery - 2 stalks",
+        "Vegetable broth - 4 cups"
+      ],
+      "steps": [
+        "Sauté mushrooms and vegetables.",
+        "Add barley and broth.",
+        "Simmer for 35 minutes.",
+        "Season to taste.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": "wl_h_17",
+      "name": "Turkey Lettuce Wraps",
+      "imageUrl": "assets/images/turkey_lettuce_wraps.jpg",
+      "calories": 285,
+      "protein": 35,
+      "fat": 10,
+      "carbs": 12,
+      "prepTime": 18,
+      "servings": 1,
+      "dietaryTags": ["Low carb", "High protein", "Quick & Easy"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Ground turkey - 150g",
+        "Lettuce leaves - 8",
+        "Water chestnuts - 1/4 cup",
+        "Scallions - 3",
+        "Ginger - 1 tsp"
+      ],
+      "steps": [
+        "Cook turkey with ginger.",
+        "Add water chestnuts and scallions.",
+        "Wash lettuce leaves.",
+        "Fill leaves with turkey mixture.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "id": "wl_h_18",
+      "name": "Grilled Veggie Skewers",
+      "imageUrl": "assets/images/veggie_skewers.jpg",
+      "calories": 240,
+      "protein": 10,
+      "fat": 12,
+      "carbs": 28,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["Vegan", "Gluten free", "Low sodium"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Bell peppers - 2 colors",
+        "Zucchini - 1 medium",
+        "Mushrooms - 8 pieces",
+        "Cherry tomatoes - 8 pieces",
+        "Olive oil - 1 tbsp",
+        "Herbs - 1 tsp"
+      ],
+      "steps": [
+        "Cut vegetables into chunks.",
+        "Thread onto skewers.",
+        "Brush with oil and herbs.",
+        "Grill for 10 minutes, turning.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": "wl_h_19",
+      "name": "Baked Chicken Breast",
+      "imageUrl": "assets/images/baked_chicken_breast.jpg",
+      "calories": 290,
+      "protein": 42,
+      "fat": 9,
+      "carbs": 8,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Low fat", "Gluten free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 160g",
+        "Broccoli - 2 cups",
+        "Carrots - 1 cup",
+        "Thyme - 1 tsp",
+        "Lemon - 1/2"
+      ],
+      "steps": [
+        "Season chicken with thyme.",
+        "Bake at 375°F for 20 minutes.",
+        "Steam vegetables.",
+        "Squeeze lemon over chicken.",
+        "Serve together."
+      ]
+    },
+    {
+      "id": "wl_h_20",
+      "name": "Spinach Lentil Curry",
+      "imageUrl": "assets/images/spinach_lentil_curry.jpg",
+      "calories": 305,
+      "protein": 16,
+      "fat": 8,
+      "carbs": 44,
+      "prepTime": 30,
+      "servings": 2,
+      "dietaryTags": ["Vegan", "High fiber", "Spicy"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Red lentils - 3/4 cup",
+        "Spinach - 3 cups",
+        "Coconut milk - 1/2 cup",
+        "Curry spices - 2 tsp",
+        "Tomatoes - 1 cup"
+      ],
+      "steps": [
+        "Cook lentils in water.",
+        "Add curry spices and tomatoes.",
+        "Simmer for 15 minutes.",
+        "Add coconut milk and spinach.",
+        "Cook until spinach wilts."
+      ]
+    },
+    {
+      "id": "wl_h_21",
+      "name": "Garlic Herb Shrimp",
+      "imageUrl": "assets/images/garlic_shrimp.jpg",
+      "calories": 270,
+      "protein": 38,
+      "fat": 10,
+      "carbs": 6,
+      "prepTime": 12,
+      "servings": 1,
+      "dietaryTags": ["Quick & Easy", "High protein", "Low carb"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Shrimp - 200g",
+        "Garlic - 4 cloves",
+        "Parsley - 3 tbsp",
+        "Lemon juice - 2 tbsp",
+        "Olive oil - 1 tsp"
+      ],
+      "steps": [
+        "Mince garlic.",
+        "Sauté garlic in oil.",
+        "Add shrimp and cook 4 minutes.",
+        "Add lemon and parsley.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "id": "wl_h_22",
+      "name": "Roasted Brussels Sprouts Bowl",
+      "imageUrl": "assets/images/brussels_bowl.jpg",
+      "calories": 280,
+      "protein": 14,
+      "fat": 11,
+      "carbs": 34,
+      "prepTime": 28,
+      "servings": 1,
+      "dietaryTags": ["Vegan", "High fiber", "Gluten free"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Brussels sprouts - 2 cups",
+        "Quinoa - 1/2 cup cooked",
+        "Chickpeas - 1/2 cup",
+        "Tahini - 1 tbsp",
+        "Lemon - 1"
+      ],
+      "steps": [
+        "Roast Brussels sprouts at 400°F.",
+        "Roast chickpeas.",
+        "Prepare quinoa.",
+        "Arrange in bowl.",
+        "Drizzle with tahini-lemon dressing."
+      ]
+    },
+    {
+      "id": "wl_h_23",
+      "name": "Lemon Dill Fish",
+      "imageUrl": "assets/images/lemon_dill_fish.jpg",
+      "calories": 295,
+      "protein": 38,
+      "fat": 12,
+      "carbs": 8,
+      "prepTime": 18,
+      "servings": 1,
+      "dietaryTags": ["Omega-3", "Low sodium", "Quick & Easy"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "White fish - 160g",
+        "Dill - 2 tbsp",
+        "Lemon - 1",
+        "Green beans - 2 cups",
+        "Olive oil - 1 tsp"
+      ],
+      "steps": [
+        "Season fish with dill and lemon.",
+        "Bake at 400°F for 15 minutes.",
+        "Steam green beans.",
+        "Toss beans with lemon.",
+        "Serve together."
+      ]
+    },
+    {
+      "id": "wl_h_24",
+      "name": "Chicken Vegetable Stir-Fry",
+      "imageUrl": "assets/images/chicken_veg_stirfry.jpg",
+      "calories": 310,
+      "protein": 38,
+      "fat": 11,
+      "carbs": 18,
+      "prepTime": 18,
+      "servings": 1,
+      "dietaryTags": ["Dairy free", "Quick & Easy", "High protein"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Chicken breast - 150g",
+        "Mixed vegetables - 2 cups",
+        "Ginger - 1 tsp",
+        "Garlic - 2 cloves",
+        "Low sodium soy sauce - 1 tbsp"
+      ],
+      "steps": [
+        "Slice chicken thinly.",
+        "Stir-fry chicken with ginger and garlic.",
+        "Add vegetables.",
+        "Cook for 5 minutes.",
+        "Add soy sauce and serve."
+      ]
+    },
+    {
+      "id": "wl_h_25",
+      "name": "Roasted Vegetable Medley",
+      "imageUrl": "assets/images/roasted_veg_medley.jpg",
+      "calories": 255,
+      "protein": 12,
+      "fat": 10,
+      "carbs": 32,
+      "prepTime": 35,
+      "servings": 1,
+      "dietaryTags": ["Vegan", "Gluten free", "High fiber"],
+      "goal": "weight-loss",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Sweet potato - 1 medium",
+        "Cauliflower - 1 cup",
+        "Red onion - 1/2",
+        "Chickpeas - 1/2 cup",
+        "Herbs - 1 tbsp",
+        "Olive oil - 1 tbsp"
+      ],
+      "steps": [
+        "Cube all vegetables.",
+        "Toss with oil and herbs.",
+        "Spread on baking sheet.",
+        "Roast at 425°F for 30 minutes.",
+        "Serve warm."
+      ]
+    },
+    {
+      "id": "wg_d_1",
+      "name": "Protein Packed Omelette",
+      "imageUrl": "assets/images/omelette.jpg",
+      "calories": 450,
+      "protein": 38,
+      "fat": 28,
+      "carbs": 15,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Gluten free", "Low carb"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Whole eggs - 3",
+        "Egg whites - 2",
+        "Cheddar cheese - 30g",
+        "Spinach - 1/2 cup",
+        "Mushrooms - 1/2 cup",
+        "Tomatoes - 1/2 cup",
+        "Butter - 1 tbsp"
+      ],
+      "steps": [
+        "Beat eggs and egg whites in a bowl.",
+        "Season with salt and pepper.",
+        "Chop vegetables into small pieces.",
+        "Heat butter in a pan over medium heat.",
+        "Pour egg mixture into the pan.",
+        "Add vegetables on one half.",
+        "Sprinkle cheese over vegetables.",
+        "Fold omelette in half and cook until set."
+      ]
+    },
+    {
+      "id": "wg_d_2",
+      "name": "Chicken and Sweet Potato",
+      "imageUrl": "assets/images/chicken_sweet_potato.jpg",
+      "calories": 520,
+      "protein": 45,
+      "fat": 15,
+      "carbs": 50,
+      "prepTime": 35,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Dairy free", "Complex carbs"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 200g",
+        "Sweet potato - 1 large",
+        "Broccoli - 1 cup",
+        "Olive oil - 1 tbsp",
+        "Garlic powder - 1 tsp",
+        "Paprika - 1 tsp"
+      ],
+      "steps": [
+        "Preheat oven to 425°F (220°C).",
+        "Cube sweet potato and toss with olive oil.",
+        "Place sweet potato on baking sheet.",
+        "Season chicken with spices.",
+        "Add chicken to baking sheet.",
+        "Bake for 25 minutes.",
+        "Steam broccoli for 5 minutes.",
+        "Serve chicken with sweet potato and broccoli."
+      ]
+    },
+    {
+      "id": "wg_d_3",
+      "name": "Beef and Quinoa Bowl",
+      "imageUrl": "assets/images/beef_quinoa_bowl.jpg",
+      "calories": 540,
+      "protein": 42,
+      "fat": 20,
+      "carbs": 48,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Gluten free", "Iron rich"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Lean beef - 180g",
+        "Quinoa - 3/4 cup cooked",
+        "Spinach - 2 cups",
+        "Bell peppers - 1 cup",
+        "Onion - 1/2 cup",
+        "Garlic - 2 cloves"
+      ],
+      "steps": [
+        "Cook quinoa according to package.",
+        "Season and cook beef.",
+        "Sauté vegetables with garlic.",
+        "Arrange quinoa as base.",
+        "Top with beef and vegetables.",
+        "Serve warm."
+      ]
+    },
+    {
+      "id": "wg_d_4",
+      "name": "Salmon with Brown Rice",
+      "imageUrl": "assets/images/salmon_brown_rice.jpg",
+      "calories": 510,
+      "protein": 40,
+      "fat": 22,
+      "carbs": 42,
+      "prepTime": 30,
+      "servings": 1,
+      "dietaryTags": ["Omega-3", "High protein", "Complex carbs"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Salmon fillet - 180g",
+        "Brown rice - 3/4 cup cooked",
+        "Asparagus - 12 spears",
+        "Lemon - 1",
+        "Olive oil - 1 tbsp",
+        "Dill - 1 tbsp"
+      ],
+      "steps": [
+        "Cook brown rice.",
+        "Season salmon with dill and lemon.",
+        "Bake salmon at 400°F for 18 minutes.",
+        "Roast asparagus with olive oil.",
+        "Serve salmon over rice with asparagus."
+      ]
+    },
+    {
+      "id": "wg_d_5",
+      "name": "Turkey Meatloaf",
+      "imageUrl": "assets/images/turkey_meatloaf.jpg",
+      "calories": 480,
+      "protein": 40,
+      "fat": 18,
+      "carbs": 38,
+      "prepTime": 50,
+      "servings": 2,
+      "dietaryTags": ["High protein", "Comfort food", "Gluten free"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Ground turkey - 300g",
+        "Oats - 1/2 cup",
+        "Egg - 1",
+        "Tomato sauce - 1/2 cup",
+        "Onion - 1/2 cup",
+        "Garlic - 2 cloves"
+      ],
+      "steps": [
+        "Preheat oven to 375°F.",
+        "Mix all ingredients in bowl.",
+        "Form into loaf shape.",
+        "Place in baking dish.",
+        "Top with tomato sauce.",
+        "Bake for 45 minutes.",
+        "Let rest 5 minutes before slicing."
+      ]
+    },
+    {
+      "id": "wg_d_6",
+      "name": "Chicken Pasta Primavera",
+      "imageUrl": "assets/images/chicken_pasta_primavera.jpg",
+      "calories": 530,
+      "protein": 38,
+      "fat": 16,
+      "carbs": 58,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Balanced meal", "Italian"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Whole wheat pasta - 100g",
+        "Chicken breast - 150g",
+        "Mixed vegetables - 2 cups",
+        "Olive oil - 1 tbsp",
+        "Parmesan - 20g",
+        "Garlic - 3 cloves"
+      ],
+      "steps": [
+        "Cook pasta according to package.",
+        "Grill chicken and slice.",
+        "Sauté vegetables with garlic.",
+        "Toss pasta with vegetables.",
+        "Top with chicken and parmesan.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "id": "wg_d_7",
+      "name": "Greek Yogurt Chicken Bowl",
+      "imageUrl": "assets/images/greek_chicken_bowl.jpg",
+      "calories": 495,
+      "protein": 44,
+      "fat": 18,
+      "carbs": 40,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Mediterranean", "Balanced"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Chicken breast - 180g",
+        "Greek yogurt - 1/2 cup",
+        "Brown rice - 3/4 cup cooked",
+        "Cucumber - 1 medium",
+        "Tomatoes - 1 cup",
+        "Feta cheese - 30g"
+      ],
+      "steps": [
+        "Marinate chicken in yogurt and herbs.",
+        "Grill chicken for 15 minutes.",
+        "Prepare rice.",
+        "Dice vegetables.",
+        "Arrange rice, chicken, and vegetables.",
+        "Top with feta."
+      ]
+    },
+    {
+      "id": "wg_d_8",
+      "name": "Beef Stir-Fry with Noodles",
+      "imageUrl": "assets/images/beef_noodles.jpg",
+      "calories": 555,
+      "protein": 38,
+      "fat": 22,
+      "carbs": 52,
+      "prepTime": 22,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Iron rich", "Asian"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Beef sirloin - 160g",
+        "Rice noodles - 100g",
+        "Broccoli - 1 cup",
+        "Bell peppers - 1 cup",
+        "Soy sauce - 2 tbsp",
+        "Ginger - 1 tsp"
+      ],
+      "steps": [
+        "Cook noodles according to package.",
+        "Slice beef thinly.",
+        "Stir-fry beef with ginger.",
+        "Add vegetables and cook.",
+        "Add noodles and soy sauce.",
+        "Toss and serve."
+      ]
+    },
+    {
+      "id": "wg_d_9",
+      "name": "Tuna and Avocado Wrap",
+      "imageUrl": "assets/images/tuna_avocado_wrap.jpg",
+      "calories": 485,
+      "protein": 36,
+      "fat": 24,
+      "carbs": 35,
+      "prepTime": 12,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Omega-3", "Quick & Easy"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Canned tuna - 180g",
+        "Whole wheat wrap - 2",
+        "Avocado - 1/2",
+        "Greek yogurt - 3 tbsp",
+        "Lettuce - 1 cup",
+        "Tomato - 1 medium"
+      ],
+      "steps": [
+        "Drain and flake tuna.",
+        "Mix tuna with yogurt.",
+        "Mash avocado.",
+        "Spread avocado on wraps.",
+        "Add tuna, lettuce, and tomato.",
+        "Roll and serve."
+      ]
+    },
+    {
+      "id": "wg_d_10",
+      "name": "Chicken and Chickpea Curry",
+      "imageUrl": "assets/images/chicken_chickpea_curry.jpg",
+      "calories": 515,
+      "protein": 42,
+      "fat": 18,
+      "carbs": 48,
+      "prepTime": 35,
+      "servings": 2,
+      "dietaryTags": ["High protein", "High fiber", "Spicy"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Chicken breast - 250g",
+        "Chickpeas - 1 cup",
+        "Coconut milk - 1 cup",
+        "Curry powder - 2 tbsp",
+        "Spinach - 2 cups",
+        "Brown rice - 1 cup cooked"
+      ],
+      "steps": [
+        "Cube and cook chicken.",
+        "Add curry powder and cook 1 minute.",
+        "Add chickpeas and coconut milk.",
+        "Simmer for 15 minutes.",
+        "Add spinach until wilted.",
+        "Serve over brown rice."
+      ]
+    },
+    {
+      "id": "wg_d_11",
+      "name": "Egg and Cheese Burrito",
+      "imageUrl": "assets/images/egg_cheese_burrito.jpg",
+      "calories": 505,
+      "protein": 32,
+      "fat": 26,
+      "carbs": 38,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Vegetarian", "Quick & Easy"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Whole wheat tortilla - 2 large",
+        "Eggs - 4",
+        "Cheddar cheese - 40g",
+        "Black beans - 1/2 cup",
+        "Avocado - 1/4",
+        "Salsa - 1/4 cup"
+      ],
+      "steps": [
+        "Scramble eggs.",
+        "Warm tortillas.",
+        "Add eggs, beans, and cheese.",
+        "Top with avocado and salsa.",
+        "Roll and serve."
+      ]
+    },
+    {
+      "id": "wg_d_12",
+      "name": "Grilled Steak with Potatoes",
+      "imageUrl": "assets/images/steak_potatoes.jpg",
+      "calories": 560,
+      "protein": 46,
+      "fat": 24,
+      "carbs": 42,
+      "prepTime": 30,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Iron rich", "Comfort food"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Sirloin steak - 180g",
+        "Baby potatoes - 250g",
+        "Green beans - 1.5 cups",
+        "Olive oil - 1 tbsp",
+        "Rosemary - 1 tsp",
+        "Garlic - 2 cloves"
+      ],
+      "steps": [
+        "Season steak with salt and pepper.",
+        "Grill steak 4 minutes per side.",
+        "Roast potatoes with rosemary.",
+        "Steam green beans.",
+        "Let steak rest 5 minutes.",
+        "Slice and serve with sides."
+      ]
+    },
+    {
+      "id": "wg_d_13",
+      "name": "Turkey and Quinoa Stuffed Peppers",
+      "imageUrl": "assets/images/turkey_quinoa_peppers.jpg",
+      "calories": 490,
+      "protein": 38,
+      "fat": 16,
+      "carbs": 48,
+      "prepTime": 45,
+      "servings": 1,
+      "dietaryTags": ["High protein", "High fiber", "Gluten free"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Bell peppers - 2 large",
+        "Ground turkey - 150g",
+        "Quinoa - 1/2 cup cooked",
+        "Tomato sauce - 3/4 cup",
+        "Onion - 1/2 cup",
+        "Mozzarella - 30g"
+      ],
+      "steps": [
+        "Cut tops off peppers.",
+        "Cook turkey with onion.",
+        "Mix turkey, quinoa, and sauce.",
+        "Stuff peppers.",
+        "Top with cheese.",
+        "Bake at 375°F for 35 minutes."
+      ]
+    },
+    {
+      "id": "wg_d_14",
+      "name": "Peanut Butter Banana Oatmeal",
+      "imageUrl": "assets/images/pb_banana_oatmeal.jpg",
+      "calories": 485,
+      "protein": 20,
+      "fat": 18,
+      "carbs": 62,
+      "prepTime": 10,
+      "servings": 1,
+      "dietaryTags": ["Vegetarian", "High fiber", "Quick & Easy"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Oats - 1 cup",
+        "Milk - 1 cup",
+        "Peanut butter - 2 tbsp",
+        "Banana - 1 large",
+        "Honey - 1 tbsp",
+        "Chia seeds - 1 tbsp"
+      ],
+      "steps": [
+        "Cook oats with milk.",
+        "Slice banana.",
+        "Top oats with peanut butter.",
+        "Add banana slices.",
+        "Drizzle with honey.",
+        "Sprinkle chia seeds."
+      ]
+    },
+    {
+      "id": "wg_d_15",
+      "name": "Chicken Alfredo Pasta",
+      "imageUrl": "assets/images/chicken_alfredo.jpg",
+      "calories": 565,
+      "protein": 40,
+      "fat": 22,
+      "carbs": 56,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Comfort food", "Italian"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Whole wheat pasta - 100g",
+        "Chicken breast - 150g",
+        "Heavy cream - 1/4 cup",
+        "Parmesan - 40g",
+        "Garlic - 3 cloves",
+        "Broccoli - 1 cup"
+      ],
+      "steps": [
+        "Cook pasta according to package.",
+        "Grill and slice chicken.",
+        "Sauté garlic in pan.",
+        "Add cream and parmesan.",
+        "Toss pasta in sauce.",
+        "Top with chicken and broccoli."
+      ]
+    },
+    {
+      "id": "wg_d_16",
+      "name": "Salmon Burger with Sweet Potato Fries",
+      "imageUrl": "assets/images/salmon_burger.jpg",
+      "calories": 535,
+      "protein": 38,
+      "fat": 20,
+      "carbs": 52,
+      "prepTime": 30,
+      "servings": 1,
+      "dietaryTags": ["Omega-3", "High protein", "Balanced"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Salmon fillet - 180g",
+        "Whole wheat bun - 1",
+        "Sweet potato - 1 large",
+        "Egg - 1",
+        "Breadcrumbs - 2 tbsp",
+        "Lettuce and tomato"
+      ],
+      "steps": [
+        "Cube sweet potato and bake as fries.",
+        "Flake salmon and mix with egg and breadcrumbs.",
+        "Form into patty.",
+        "Pan-fry patty 4 minutes per side.",
+        "Assemble burger with vegetables.",
+        "Serve with sweet potato fries."
+      ]
+    },
+    {
+      "id": "wg_d_17",
+      "name": "Beef and Bean Chili",
+      "imageUrl": "assets/images/beef_bean_chili.jpg",
+      "calories": 520,
+      "protein": 40,
+      "fat": 18,
+      "carbs": 50,
+      "prepTime": 40,
+      "servings": 2,
+      "dietaryTags": ["High protein", "High fiber", "Comfort food"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Lean ground beef - 250g",
+        "Kidney beans - 1 cup",
+        "Tomatoes - 2 cups",
+        "Onion - 1 medium",
+        "Chili spices - 2 tbsp",
+        "Brown rice - 1 cup cooked"
+      ],
+      "steps": [
+        "Brown beef with onion.",
+        "Add tomatoes, beans, and spices.",
+        "Simmer for 30 minutes.",
+        "Season to taste.",
+        "Serve over brown rice."
+      ]
+    },
+    {
+      "id": "wg_d_18",
+      "name": "Greek Chicken Gyro",
+      "imageUrl": "assets/images/greek_gyro.jpg",
+      "calories": 505,
+      "protein": 42,
+      "fat": 18,
+      "carbs": 45,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Mediterranean", "Balanced"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Chicken breast - 180g",
+        "Whole wheat pita - 2",
+        "Tzatziki - 1/4 cup",
+        "Lettuce - 1 cup",
+        "Tomatoes - 1/2 cup",
+        "Red onion - 1/4 cup"
+      ],
+      "steps": [
+        "Season and grill chicken.",
+        "Slice chicken thinly.",
+        "Warm pitas.",
+        "Spread tzatziki on pitas.",
+        "Add chicken and vegetables.",
+        "Roll and serve."
+      ]
+    },
+    {
+      "id": "wg_d_19",
+      "name": "Tuna Casserole",
+      "imageUrl": "assets/images/tuna_casserole.jpg",
+      "calories": 495,
+      "protein": 36,
+      "fat": 16,
+      "carbs": 54,
+      "prepTime": 35,
+      "servings": 2,
+      "dietaryTags": ["High protein", "Comfort food", "Omega-3"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Canned tuna - 300g",
+        "Whole wheat pasta - 200g",
+        "Peas - 1 cup",
+        "Greek yogurt - 1/2 cup",
+        "Cheddar cheese - 50g",
+        "Breadcrumbs - 1/4 cup"
+      ],
+      "steps": [
+        "Cook pasta.",
+        "Mix tuna, pasta, peas, and yogurt.",
+        "Transfer to baking dish.",
+        "Top with cheese and breadcrumbs.",
+        "Bake at 375°F for 25 minutes.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": "wg_d_20",
+      "name": "Chicken and Rice Bowl",
+      "imageUrl": "assets/images/chicken_rice_bowl.jpg",
+      "calories": 530,
+      "protein": 44,
+      "fat": 16,
+      "carbs": 55,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Balanced", "Asian"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 180g",
+        "Brown rice - 1 cup cooked",
+        "Edamame - 1/2 cup",
+        "Carrots - 1/2 cup",
+        "Soy sauce - 1 tbsp",
+        "Sesame seeds - 1 tsp"
+      ],
+      "steps": [
+        "Cook and dice chicken.",
+        "Prepare brown rice.",
+        "Steam edamame and carrots.",
+        "Arrange rice in bowl.",
+        "Top with chicken and vegetables.",
+        "Drizzle with soy sauce and sesame seeds."
+      ]
+    },
+    {
+      "id": "wg_d_21",
+      "name": "Protein Pancakes",
+      "imageUrl": "assets/images/protein_pancakes.jpg",
+      "calories": 475,
+      "protein": 32,
+      "fat": 16,
+      "carbs": 52,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Vegetarian", "Breakfast"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Oats - 3/4 cup",
+        "Protein powder - 1 scoop",
+        "Eggs - 2",
+        "Banana - 1",
+        "Greek yogurt - 1/4 cup",
+        "Berries - 1/2 cup"
+      ],
+      "steps": [
+        "Blend oats, protein powder, eggs, and banana.",
+        "Cook pancakes on griddle.",
+        "Stack pancakes.",
+        "Top with Greek yogurt and berries.",
+        "Serve warm."
+      ]
+    },
+    {
+      "id": "wg_d_22",
+      "name": "Meatball Sub",
+      "imageUrl": "assets/images/meatball_sub.jpg",
+      "calories": 545,
+      "protein": 38,
+      "fat": 22,
+      "carbs": 52,
+      "prepTime": 30,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Comfort food", "Italian"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Ground beef - 150g",
+        "Whole wheat sub roll - 1",
+        "Marinara sauce - 3/4 cup",
+        "Mozzarella - 40g",
+        "Parmesan - 20g",
+        "Italian herbs - 1 tsp"
+      ],
+      "steps": [
+        "Mix beef with herbs and form meatballs.",
+        "Bake meatballs at 375°F for 20 minutes.",
+        "Heat marinara sauce.",
+        "Place meatballs in roll.",
+        "Top with sauce and cheese.",
+        "Toast in oven until cheese melts."
+      ]
+    },
+    {
+      "id": "wg_d_23",
+      "name": "Shrimp Fried Rice",
+      "imageUrl": "assets/images/shrimp_fried_rice.jpg",
+      "calories": 510,
+      "protein": 36,
+      "fat": 16,
+      "carbs": 58,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Quick & Easy", "Asian"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Shrimp - 200g",
+        "Brown rice - 1.5 cups cooked",
+        "Eggs - 2",
+        "Peas and carrots - 1 cup",
+        "Soy sauce - 2 tbsp",
+        "Green onions - 3"
+      ],
+      "steps": [
+        "Cook shrimp and set aside.",
+        "Scramble eggs and set aside.",
+        "Stir-fry vegetables.",
+        "Add rice and soy sauce.",
+        "Add shrimp and eggs.",
+        "Top with green onions."
+      ]
+    },
+    {
+      "id": "wg_d_24",
+      "name": "BBQ Chicken Pizza",
+      "imageUrl": "assets/images/bbq_chicken_pizza.jpg",
+      "calories": 555,
+      "protein": 40,
+      "fat": 20,
+      "carbs": 58,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Comfort food", "Fun"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Whole wheat pizza dough - 1 small",
+        "Chicken breast - 150g",
+        "BBQ sauce - 1/4 cup",
+        "Mozzarella - 50g",
+        "Red onion - 1/4 cup",
+        "Cilantro - 2 tbsp"
+      ],
+      "steps": [
+        "Cook and shred chicken.",
+        "Roll out dough.",
+        "Spread BBQ sauce on dough.",
+        "Top with chicken, cheese, and onion.",
+        "Bake at 450°F for 12 minutes.",
+        "Garnish with cilantro."
+      ]
+    },
+    {
+      "id": "wg_d_25",
+      "name": "Lentil and Sausage Stew",
+      "imageUrl": "assets/images/lentil_sausage_stew.jpg",
+      "calories": 525,
+      "protein": 34,
+      "fat": 20,
+      "carbs": 56,
+      "prepTime": 40,
+      "servings": 2,
+      "dietaryTags": ["High protein", "High fiber", "Comfort food"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["diabetes", "none"],
+      "ingredients": [
+        "Turkey sausage - 200g",
+        "Lentils - 1 cup",
+        "Carrots - 2 medium",
+        "Celery - 2 stalks",
+        "Tomatoes - 1 cup",
+        "Broth - 4 cups"
+      ],
+      "steps": [
+        "Slice and brown sausage.",
+        "Add vegetables and sauté.",
+        "Add lentils and broth.",
+        "Simmer for 30 minutes.",
+        "Season to taste.",
+        "Serve with whole grain bread."
+      ]
+    },
+    {
+      "id": "wg_h_1",
+      "name": "Grilled Salmon with Quinoa",
+      "imageUrl": "assets/images/grilled_salmon_quinoa.jpg",
+      "calories": 545,
+      "protein": 42,
+      "fat": 24,
+      "carbs": 42,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["Omega-3", "High protein", "Heart healthy"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Salmon fillet - 180g",
+        "Quinoa - 3/4 cup cooked",
+        "Spinach - 2 cups",
+        "Lemon - 1",
+        "Olive oil - 1 tbsp",
+        "Almonds - 2 tbsp"
+      ],
+      "steps": [
+        "Season salmon with lemon and herbs.",
+        "Grill salmon for 5 minutes per side.",
+        "Cook quinoa.",
+        "Sauté spinach.",
+        "Serve salmon over quinoa and spinach.",
+        "Top with toasted almonds."
+      ]
+    },
+    {
+      "id": "wg_h_2",
+      "name": "Turkey and Avocado Sandwich",
+      "imageUrl": "assets/images/turkey_avocado_sandwich.jpg",
+      "calories": 510,
+      "protein": 38,
+      "fat": 22,
+      "carbs": 44,
+      "prepTime": 10,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Quick & Easy", "Balanced"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Whole wheat bread - 2 slices",
+        "Turkey breast - 150g",
+        "Avocado - 1/2",
+        "Lettuce - 2 leaves",
+        "Tomato - 3 slices",
+        "Mustard - 1 tbsp"
+      ],
+      "steps": [
+        "Toast bread lightly.",
+        "Mash avocado on one slice.",
+        "Layer turkey, lettuce, and tomato.",
+        "Spread mustard on other slice.",
+        "Close sandwich and serve."
+      ]
+    },
+    {
+      "id": "wg_h_3",
+      "name": "Chicken and Sweet Potato Hash",
+      "imageUrl": "assets/images/chicken_sweet_potato_hash.jpg",
+      "calories": 530,
+      "protein": 40,
+      "fat": 18,
+      "carbs": 52,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Complex carbs", "Gluten free"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Chicken breast - 160g",
+        "Sweet potato - 1 large",
+        "Bell peppers - 1 cup",
+        "Onion - 1/2 cup",
+        "Eggs - 2",
+        "Olive oil - 1 tbsp"
+      ],
+      "steps": [
+        "Dice chicken and sweet potato.",
+        "Sauté chicken in olive oil.",
+        "Add sweet potato and cook until tender.",
+        "Add peppers and onion.",
+        "Fry eggs separately.",
+        "Top hash with fried eggs."
+      ]
+    },
+    {
+      "id": "wg_h_4",
+      "name": "Tuna Poke Bowl",
+      "imageUrl": "assets/images/tuna_poke_bowl.jpg",
+      "calories": 515,
+      "protein": 38,
+      "fat": 18,
+      "carbs": 50,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["Omega-3", "High protein", "Asian"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Fresh tuna - 180g",
+        "Brown rice - 1 cup cooked",
+        "Avocado - 1/2",
+        "Edamame - 1/2 cup",
+        "Cucumber - 1/2 cup",
+        "Soy sauce - 2 tbsp",
+        "Sesame seeds - 1 tsp"
+      ],
+      "steps": [
+        "Cube tuna.",
+        "Marinate in soy sauce for 5 minutes.",
+        "Arrange rice in bowl.",
+        "Top with tuna, avocado, edamame, and cucumber.",
+        "Sprinkle with sesame seeds.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "id": "wg_h_5",
+      "name": "Chicken Fajita Bowl",
+      "imageUrl": "assets/images/chicken_fajita_bowl.jpg",
+      "calories": 525,
+      "protein": 42,
+      "fat": 18,
+      "carbs": 48,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Balanced", "Mexican"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 180g",
+        "Brown rice - 3/4 cup cooked",
+        "Bell peppers - 1 cup",
+        "Onion - 1/2 cup",
+        "Black beans - 1/2 cup",
+        "Avocado - 1/4",
+        "Fajita seasoning - 2 tsp"
+      ],
+      "steps": [
+        "Slice chicken and season with fajita spices.",
+        "Cook chicken in pan.",
+        "Sauté peppers and onions.",
+        "Arrange rice in bowl.",
+        "Top with chicken, vegetables, and beans.",
+        "Add avocado slices."
+      ]
+    },
+    {
+      "id": "wg_h_6",
+      "name": "Shrimp and Avocado Pasta",
+      "imageUrl": "assets/images/shrimp_avocado_pasta.jpg",
+      "calories": 540,
+      "protein": 36,
+      "fat": 22,
+      "carbs": 54,
+      "prepTime": 22,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Heart healthy", "Quick & Easy"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Whole wheat pasta - 100g",
+        "Shrimp - 180g",
+        "Avocado - 1/2",
+        "Cherry tomatoes - 1 cup",
+        "Garlic - 3 cloves",
+        "Olive oil - 1 tbsp",
+        "Basil - fresh, 1/4 cup"
+      ],
+      "steps": [
+        "Cook pasta according to package.",
+        "Sauté shrimp with garlic.",
+        "Blend avocado with olive oil for sauce.",
+        "Toss pasta with avocado sauce.",
+        "Add shrimp and tomatoes.",
+        "Garnish with fresh basil."
+      ]
+    },
+    {
+      "id": "wg_h_7",
+      "name": "Beef and Broccoli Stir-Fry",
+      "imageUrl": "assets/images/beef_broccoli.jpg",
+      "calories": 535,
+      "protein": 40,
+      "fat": 22,
+      "carbs": 46,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Iron rich", "Asian"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Beef sirloin - 160g",
+        "Broccoli - 2 cups",
+        "Brown rice - 3/4 cup cooked",
+        "Garlic - 2 cloves",
+        "Ginger - 1 tsp",
+        "Low sodium soy sauce - 2 tbsp"
+      ],
+      "steps": [
+        "Slice beef thinly.",
+        "Stir-fry beef with garlic and ginger.",
+        "Add broccoli and cook.",
+        "Add soy sauce.",
+        "Serve over brown rice."
+      ]
+    },
+    {
+      "id": "wg_h_8",
+      "name": "Chicken and Hummus Wrap",
+      "imageUrl": "assets/images/chicken_hummus_wrap.jpg",
+      "calories": 505,
+      "protein": 38,
+      "fat": 18,
+      "carbs": 48,
+      "prepTime": 12,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Mediterranean", "Quick & Easy"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Whole wheat wrap - 2",
+        "Chicken breast - 150g",
+        "Hummus - 1/4 cup",
+        "Cucumber - 1/2 cup",
+        "Tomatoes - 1/2 cup",
+        "Lettuce - 1 cup"
+      ],
+      "steps": [
+        "Grill and slice chicken.",
+        "Spread hummus on wraps.",
+        "Add chicken and vegetables.",
+        "Roll tightly.",
+        "Cut in half and serve."
+      ]
+    },
+    {
+      "id": "wg_h_9",
+      "name": "Egg White and Veggie Scramble",
+      "imageUrl": "assets/images/egg_white_veggie_scramble.jpg",
+      "calories": 445,
+      "protein": 36,
+      "fat": 16,
+      "carbs": 42,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Low cholesterol", "Vegetarian"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Egg whites - 8",
+        "Whole eggs - 2",
+        "Spinach - 1 cup",
+        "Mushrooms - 1 cup",
+        "Tomatoes - 1/2 cup",
+        "Whole wheat toast - 2 slices",
+        "Avocado - 1/4"
+      ],
+      "steps": [
+        "Whisk egg whites and eggs.",
+        "Sauté vegetables.",
+        "Pour eggs over vegetables.",
+        "Scramble until cooked.",
+        "Serve with toast and avocado."
+      ]
+    },
+    {
+      "id": "wg_h_10",
+      "name": "Turkey Meatball Sub",
+      "imageUrl": "assets/images/turkey_meatball_sub.jpg",
+      "calories": 520,
+      "protein": 40,
+      "fat": 18,
+      "carbs": 50,
+      "prepTime": 30,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Comfort food", "Balanced"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Ground turkey - 150g",
+        "Whole wheat sub roll - 1",
+        "Marinara sauce - 3/4 cup",
+        "Mozzarella - 30g",
+        "Italian herbs - 1 tsp",
+        "Onion powder - 1/2 tsp"
+      ],
+      "steps": [
+        "Mix turkey with herbs and form meatballs.",
+        "Bake at 375°F for 20 minutes.",
+        "Heat marinara sauce.",
+        "Place meatballs in roll.",
+        "Top with sauce and cheese.",
+        "Broil until cheese melts."
+      ]
+    },
+    {
+      "id": "wg_h_11",
+      "name": "Grilled Chicken Caesar Salad",
+      "imageUrl": "assets/images/chicken_caesar_salad.jpg",
+      "calories": 485,
+      "protein": 44,
+      "fat": 20,
+      "carbs": 32,
+      "prepTime": 18,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Classic", "Satisfying"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 180g",
+        "Romaine lettuce - 3 cups",
+        "Caesar dressing - 3 tbsp",
+        "Parmesan - 30g",
+        "Whole wheat croutons - 1/4 cup",
+        "Lemon - 1/2"
+      ],
+      "steps": [
+        "Grill chicken breast.",
+        "Chop romaine lettuce.",
+        "Toss lettuce with dressing.",
+        "Slice chicken and add to salad.",
+        "Top with parmesan and croutons.",
+        "Squeeze lemon over salad."
+      ]
+    },
+    {
+      "id": "wg_h_12",
+      "name": "Salmon and Sweet Potato",
+      "imageUrl": "assets/images/salmon_sweet_potato.jpg",
+      "calories": 550,
+      "protein": 40,
+      "fat": 24,
+      "carbs": 44,
+      "prepTime": 30,
+      "servings": 1,
+      "dietaryTags": ["Omega-3", "High protein", "Heart healthy"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Salmon fillet - 180g",
+        "Sweet potato - 1 large",
+        "Green beans - 1.5 cups",
+        "Olive oil - 1 tbsp",
+        "Dill - 1 tbsp",
+        "Lemon - 1"
+      ],
+      "steps": [
+        "Bake sweet potato at 400°F for 25 minutes.",
+        "Season salmon with dill and lemon.",
+        "Bake salmon for 15 minutes.",
+        "Steam green beans.",
+        "Serve all together."
+      ]
+    },
+    {
+      "id": "wg_h_13",
+      "name": "Chicken Burrito Bowl",
+      "imageUrl": "assets/images/chicken_burrito_bowl.jpg",
+      "calories": 535,
+      "protein": 42,
+      "fat": 18,
+      "carbs": 52,
+      "prepTime": 22,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Mexican", "Balanced"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 170g",
+        "Brown rice - 3/4 cup cooked",
+        "Black beans - 1/2 cup",
+        "Corn - 1/4 cup",
+        "Salsa - 1/4 cup",
+        "Avocado - 1/4",
+        "Lime - 1"
+      ],
+      "steps": [
+        "Season and grill chicken.",
+        "Dice chicken.",
+        "Arrange rice in bowl.",
+        "Top with chicken, beans, and corn.",
+        "Add salsa and avocado.",
+        "Squeeze lime over bowl."
+      ]
+    },
+    {
+      "id": "wg_h_14",
+      "name": "Tuna Nicoise Salad",
+      "imageUrl": "assets/images/tuna_nicoise.jpg",
+      "calories": 495,
+      "protein": 38,
+      "fat": 22,
+      "carbs": 38,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["Omega-3", "High protein", "Mediterranean"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Canned tuna - 180g",
+        "Baby potatoes - 150g",
+        "Green beans - 1 cup",
+        "Hard boiled eggs - 2",
+        "Cherry tomatoes - 1 cup",
+        "Olives - 8 pieces",
+        "Olive oil - 1 tbsp"
+      ],
+      "steps": [
+        "Boil potatoes until tender.",
+        "Blanch green beans.",
+        "Arrange all ingredients on plate.",
+        "Drizzle with olive oil and lemon.",
+        "Season with herbs."
+      ]
+    },
+    {
+      "id": "wg_h_15",
+      "name": "Greek Yogurt Parfait Bowl",
+      "imageUrl": "assets/images/greek_parfait_bowl.jpg",
+      "calories": 470,
+      "protein": 28,
+      "fat": 16,
+      "carbs": 56,
+      "prepTime": 10,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Vegetarian", "Quick & Easy"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Greek yogurt - 2 cups",
+        "Granola - 1/2 cup",
+        "Mixed berries - 1 cup",
+        "Honey - 2 tbsp",
+        "Almonds - 2 tbsp",
+        "Chia seeds - 1 tbsp"
+      ],
+      "steps": [
+        "Layer yogurt in bowl.",
+        "Add berries and granola.",
+        "Repeat layers.",
+        "Top with almonds and chia seeds.",
+        "Drizzle with honey."
+      ]
+    },
+    {
+      "id": "wg_h_16",
+      "name": "Chicken and Vegetable Kebabs",
+      "imageUrl": "assets/images/chicken_veg_kebabs.jpg",
+      "calories": 510,
+      "protein": 44,
+      "fat": 18,
+      "carbs": 42,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Gluten free", "Grilled"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 180g",
+        "Bell peppers - 2 colors",
+        "Zucchini - 1 medium",
+        "Red onion - 1 medium",
+        "Brown rice - 3/4 cup cooked",
+        "Olive oil - 1 tbsp",
+        "Lemon - 1"
+      ],
+      "steps": [
+        "Cube chicken and vegetables.",
+        "Thread onto skewers.",
+        "Brush with olive oil and lemon.",
+        "Grill for 12 minutes, turning.",
+        "Serve over brown rice."
+      ]
+    },
+    {
+      "id": "wg_h_17",
+      "name": "Turkey and Quinoa Chili",
+      "imageUrl": "assets/images/turkey_quinoa_chili.jpg",
+      "calories": 525,
+      "protein": 40,
+      "fat": 16,
+      "carbs": 54,
+      "prepTime": 35,
+      "servings": 2,
+      "dietaryTags": ["High protein", "High fiber", "Comfort food"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "diabetes", "none"],
+      "ingredients": [
+        "Ground turkey - 250g",
+        "Quinoa - 1/2 cup cooked",
+        "Kidney beans - 1 cup",
+        "Tomatoes - 2 cups",
+        "Chili spices - 2 tbsp",
+        "Onion - 1 medium"
+      ],
+      "steps": [
+        "Brown turkey with onion.",
+        "Add tomatoes, beans, quinoa, and spices.",
+        "Simmer for 25 minutes.",
+        "Season to taste.",
+        "Serve hot with whole grain bread."
+      ]
+    },
+    {
+      "id": "wg_h_18",
+      "name": "Baked Cod with Vegetables",
+      "imageUrl": "assets/images/baked_cod_vegetables.jpg",
+      "calories": 485,
+      "protein": 42,
+      "fat": 14,
+      "carbs": 48,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Low fat", "Heart healthy"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Cod fillet - 180g",
+        "Sweet potato - 1 medium",
+        "Brussels sprouts - 1.5 cups",
+        "Olive oil - 1 tbsp",
+        "Lemon - 1",
+        "Herbs - 1 tsp"
+      ],
+      "steps": [
+        "Cube sweet potato.",
+        "Arrange cod and vegetables on sheet.",
+        "Drizzle with olive oil and lemon.",
+        "Season with herbs.",
+        "Bake at 400°F for 22 minutes."
+      ]
+    },
+    {
+      "id": "wg_h_19",
+      "name": "Chicken Souvlaki Plate",
+      "imageUrl": "assets/images/chicken_souvlaki.jpg",
+      "calories": 540,
+      "protein": 46,
+      "fat": 20,
+      "carbs": 44,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Mediterranean", "Grilled"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 180g",
+        "Brown rice - 3/4 cup cooked",
+        "Greek yogurt - 1/4 cup",
+        "Cucumber - 1 medium",
+        "Tomatoes - 1 cup",
+        "Lemon - 1",
+        "Greek spices - 2 tsp"
+      ],
+      "steps": [
+        "Marinate chicken in Greek spices and lemon.",
+        "Grill chicken for 12 minutes.",
+        "Prepare rice.",
+        "Make tzatziki with yogurt and cucumber.",
+        "Serve chicken over rice with vegetables.",
+        "Top with tzatziki."
+      ]
+    },
+    {
+      "id": "wg_h_20",
+      "name": "Shrimp and Quinoa Bowl",
+      "imageUrl": "assets/images/shrimp_quinoa_bowl.jpg",
+      "calories": 515,
+      "protein": 38,
+      "fat": 18,
+      "carbs": 48,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Gluten free", "Quick & Easy"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Shrimp - 200g",
+        "Quinoa - 3/4 cup cooked",
+        "Avocado - 1/2",
+        "Cherry tomatoes - 1 cup",
+        "Spinach - 2 cups",
+        "Lime - 1"
+      ],
+      "steps": [
+        "Cook quinoa.",
+        "Sauté shrimp with lime.",
+        "Arrange quinoa in bowl.",
+        "Top with shrimp, avocado, tomatoes, and spinach.",
+        "Squeeze lime over bowl."
+      ]
+    },
+    {
+      "id": "wg_h_21",
+      "name": "Chicken and Brown Rice Casserole",
+      "imageUrl": "assets/images/chicken_rice_casserole.jpg",
+      "calories": 530,
+      "protein": 42,
+      "fat": 16,
+      "carbs": 54,
+      "prepTime": 40,
+      "servings": 2,
+      "dietaryTags": ["High protein", "Comfort food", "Balanced"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 250g",
+        "Brown rice - 1.5 cups cooked",
+        "Broccoli - 2 cups",
+        "Greek yogurt - 1/2 cup",
+        "Cheddar cheese - 40g",
+        "Chicken broth - 1 cup"
+      ],
+      "steps": [
+        "Cook and dice chicken.",
+        "Mix chicken, rice, broccoli, yogurt, and broth.",
+        "Transfer to baking dish.",
+        "Top with cheese.",
+        "Bake at 375°F for 25 minutes.",
+        "Let cool 5 minutes before serving."
+      ]
+    },
+    {
+      "id": "wg_h_22",
+      "name": "Beef and Vegetable Stew",
+      "imageUrl": "assets/images/beef_veg_stew.jpg",
+      "calories": 520,
+      "protein": 38,
+      "fat": 20,
+      "carbs": 46,
+      "prepTime": 50,
+      "servings": 2,
+      "dietaryTags": ["High protein", "Iron rich", "Comfort food"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Lean beef - 250g",
+        "Potatoes - 2 medium",
+        "Carrots - 3 medium",
+        "Celery - 2 stalks",
+        "Beef broth - 4 cups",
+        "Herbs - 1 tbsp"
+      ],
+      "steps": [
+        "Cube beef and vegetables.",
+        "Brown beef in pot.",
+        "Add vegetables and broth.",
+        "Simmer for 40 minutes.",
+        "Season with herbs.",
+        "Serve with whole grain bread."
+      ]
+    },
+    {
+      "id": "wg_h_23",
+      "name": "Turkey and Avocado Bowl",
+      "imageUrl": "assets/images/turkey_avocado_bowl.jpg",
+      "calories": 505,
+      "protein": 40,
+      "fat": 20,
+      "carbs": 42,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Quick & Easy", "Balanced"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Turkey breast - 170g",
+        "Brown rice - 3/4 cup cooked",
+        "Avocado - 1/2",
+        "Mixed greens - 2 cups",
+        "Cherry tomatoes - 1 cup",
+        "Balsamic vinegar - 1 tbsp"
+      ],
+      "steps": [
+        "Grill and slice turkey.",
+        "Arrange rice and greens in bowl.",
+        "Top with turkey, avocado, and tomatoes.",
+        "Drizzle with balsamic vinegar."
+      ]
+    },
+    {
+      "id": "wg_h_24",
+      "name": "Chicken Teriyaki with Rice",
+      "imageUrl": "assets/images/chicken_teriyaki.jpg",
+      "calories": 545,
+      "protein": 44,
+      "fat": 16,
+      "carbs": 58,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Asian", "Balanced"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 180g",
+        "Brown rice - 1 cup cooked",
+        "Broccoli - 1.5 cups",
+        "Teriyaki sauce - 3 tbsp",
+        "Sesame seeds - 1 tsp",
+        "Green onions - 2"
+      ],
+      "steps": [
+        "Cook chicken and slice.",
+        "Steam broccoli.",
+        "Heat teriyaki sauce.",
+        "Arrange rice in bowl.",
+        "Top with chicken and broccoli.",
+        "Drizzle with teriyaki and garnish."
+      ]
+    },
+    {
+      "id": "wg_h_25",
+      "name": "Mediterranean Chicken Bowl",
+      "imageUrl": "assets/images/mediterranean_chicken_bowl.jpg",
+      "calories": 535,
+      "protein": 42,
+      "fat": 20,
+      "carbs": 46,
+      "prepTime": 22,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Mediterranean", "Balanced"],
+      "goal": "weight-gain",
+      "suitableForDiseases": ["hypertension", "none"],
+      "ingredients": [
+        "Chicken breast - 170g",
+        "Quinoa - 3/4 cup cooked",
+        "Hummus - 1/4 cup",
+        "Cucumber - 1 cup",
+        "Cherry tomatoes - 1 cup",
+        "Olives - 10 pieces",
+        "Feta cheese - 30g"
+      ],
+      "steps": [
+        "Season and grill chicken.",
+        "Slice chicken.",
+        "Arrange quinoa in bowl.",
+        "Add hummus, chicken, and vegetables.",
+        "Top with olives and feta."
+      ]
+    },
+    {
+      "id": "m_n_1",
+      "name": "Avocado Toast",
+      "imageUrl": "assets/images/avocado_toast.jpg",
+      "calories": 380,
+      "protein": 15,
+      "fat": 20,
+      "carbs": 35,
+      "prepTime": 10,
+      "servings": 1,
+      "dietaryTags": ["Quick & Easy", "Vegetarian"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Whole wheat bread - 2 slices",
+        "Avocado - 1 whole",
+        "Eggs - 2",
+        "Cherry tomatoes - 4 pieces",
+        "Mixed greens - handful",
+        "Salt and pepper - to taste",
+        "Red pepper flakes - pinch"
+      ],
+      "steps": [
+        "Toast bread slices until golden brown.",
+        "Mash avocado with salt and pepper.",
+        "Fry or poach eggs to your preference.",
+        "Spread mashed avocado on toast.",
+        "Top with eggs.",
+        "Add sliced tomatoes and greens.",
+        "Sprinkle with red pepper flakes."
+      ]
+    },
+    {
+      "id": "m_n_2",
+      "name": "Mediterranean Pasta",
+      "imageUrl": "assets/images/mediterranean_pasta.jpg",
+      "calories": 420,
+      "protein": 18,
+      "fat": 16,
+      "carbs": 52,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["Vegetarian", "Mediterranean"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Whole wheat pasta - 80g",
+        "Cherry tomatoes - 1 cup",
+        "Olives - 1/4 cup",
+        "Feta cheese - 30g",
+        "Olive oil - 2 tbsp",
+        "Garlic - 2 cloves",
+        "Basil - fresh, handful",
+        "Pine nuts - 1 tbsp"
+      ],
+      "steps": [
+        "Cook pasta according to package directions.",
+        "Heat olive oil in a pan.",
+        "Add minced garlic and sauté for 1 minute.",
+        "Add halved cherry tomatoes.",
+        "Cook for 3-4 minutes until tomatoes soften.",
+        "Drain pasta and add to pan.",
+        "Toss with olives and torn basil.",
+        "Top with crumbled feta and pine nuts."
+      ]
+    },
+    {
+      "id": "m_n_3",
+      "name": "Chicken Caesar Wrap",
+      "imageUrl": "assets/images/chicken_caesar_wrap.jpg",
+      "calories": 410,
+      "protein": 32,
+      "fat": 18,
+      "carbs": 32,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Quick & Easy"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Whole wheat wrap - 1 large",
+        "Chicken breast - 130g",
+        "Romaine lettuce - 1.5 cups",
+        "Caesar dressing - 2 tbsp",
+        "Parmesan - 20g",
+        "Croutons - 2 tbsp"
+      ],
+      "steps": [
+        "Grill and slice chicken.",
+        "Chop romaine lettuce.",
+        "Spread dressing on wrap.",
+        "Add lettuce, chicken, parmesan, and croutons.",
+        "Roll tightly and cut in half."
+      ]
+    },
+    {
+      "id": "m_n_4",
+      "name": "Veggie Burger with Sweet Potato Fries",
+      "imageUrl": "assets/images/veggie_burger.jpg",
+      "calories": 425,
+      "protein": 18,
+      "fat": 14,
+      "carbs": 58,
+      "prepTime": 25,
+      "servings": 1,
+      "dietaryTags": ["Vegetarian", "Balanced"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Veggie burger patty - 1",
+        "Whole wheat bun - 1",
+        "Sweet potato - 1 medium",
+        "Lettuce - 2 leaves",
+        "Tomato - 2 slices",
+        "Onion - 2 slices",
+        "Ketchup - 1 tbsp"
+      ],
+      "steps": [
+        "Cut sweet potato into fries.",
+        "Bake fries at 425°F for 20 minutes.",
+        "Cook veggie patty according to package.",
+        "Toast bun.",
+        "Assemble burger with vegetables.",
+        "Serve with sweet potato fries."
+      ]
+    },
+    {
+      "id": "m_n_5",
+      "name": "Chicken Stir-Fry",
+      "imageUrl": "assets/images/chicken_stirfry.jpg",
+      "calories": 395,
+      "protein": 34,
+      "fat": 14,
+      "carbs": 36,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Asian", "Quick & Easy"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Chicken breast - 130g",
+        "Mixed vegetables - 2 cups",
+        "Brown rice - 1/2 cup cooked",
+        "Soy sauce - 2 tbsp",
+        "Ginger - 1 tsp",
+        "Garlic - 2 cloves",
+        "Sesame oil - 1 tsp"
+      ],
+      "steps": [
+        "Slice chicken thinly.",
+        "Stir-fry chicken with ginger and garlic.",
+        "Add vegetables and cook.",
+        "Add soy sauce.",
+        "Serve over brown rice.",
+        "Drizzle with sesame oil."
+      ]
+    },
+    {
+      "id": "m_n_6",
+      "name": "Caprese Salad with Grilled Chicken",
+      "imageUrl": "assets/images/caprese_chicken.jpg",
+      "calories": 405,
+      "protein": 36,
+      "fat": 20,
+      "carbs": 22,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Italian", "Fresh"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Chicken breast - 140g",
+        "Fresh mozzarella - 50g",
+        "Tomatoes - 2 medium",
+        "Fresh basil - 1/4 cup",
+        "Balsamic glaze - 2 tbsp",
+        "Olive oil - 1 tbsp",
+        "Whole grain bread - 1 slice"
+      ],
+      "steps": [
+        "Grill chicken breast.",
+        "Slice tomatoes and mozzarella.",
+        "Arrange tomatoes, mozzarella, and basil.",
+        "Slice chicken and add to plate.",
+        "Drizzle with balsamic and olive oil.",
+        "Serve with bread."
+      ]
+    },
+    {
+      "id": "m_n_7",
+      "name": "Salmon Poke Bowl",
+      "imageUrl": "assets/images/salmon_poke.jpg",
+      "calories": 435,
+      "protein": 32,
+      "fat": 18,
+      "carbs": 38,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["Omega-3", "Asian", "Fresh"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Fresh salmon - 130g",
+        "Sushi rice - 3/4 cup cooked",
+        "Edamame - 1/4 cup",
+        "Cucumber - 1/2 cup",
+        "Avocado - 1/4",
+        "Seaweed - 2 tbsp",
+        "Soy sauce - 1 tbsp"
+      ],
+      "steps": [
+        "Cube salmon.",
+        "Marinate in soy sauce for 5 minutes.",
+        "Arrange rice in bowl.",
+        "Top with salmon and vegetables.",
+        "Add seaweed.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "id": "m_n_8",
+      "name": "Turkey Club Sandwich",
+      "imageUrl": "assets/images/turkey_club.jpg",
+      "calories": 415,
+      "protein": 30,
+      "fat": 16,
+      "carbs": 38,
+      "prepTime": 12,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Classic", "Quick & Easy"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Whole wheat bread - 3 slices",
+        "Turkey breast - 100g",
+        "Bacon - 2 strips",
+        "Lettuce - 2 leaves",
+        "Tomato - 3 slices",
+        "Mayo - 1 tbsp",
+        "Avocado - 1/4"
+      ],
+      "steps": [
+        "Toast bread slices.",
+        "Cook bacon until crispy.",
+        "Spread mayo on bread.",
+        "Layer turkey, bacon, lettuce, tomato, and avocado.",
+        "Stack into triple-decker.",
+        "Cut and serve."
+      ]
+    },
+    {
+      "id": "m_n_9",
+      "name": "Shrimp Tacos",
+      "imageUrl": "assets/images/shrimp_tacos.jpg",
+      "calories": 390,
+      "protein": 28,
+      "fat": 14,
+      "carbs": 40,
+      "prepTime": 18,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Mexican", "Quick & Easy"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Shrimp - 150g",
+        "Corn tortillas - 3",
+        "Cabbage slaw - 1 cup",
+        "Avocado - 1/4",
+        "Lime - 1",
+        "Cilantro - 2 tbsp",
+        "Taco seasoning - 1 tsp"
+      ],
+      "steps": [
+        "Season shrimp with taco spices.",
+        "Sauté shrimp for 4 minutes.",
+        "Warm tortillas.",
+        "Fill with shrimp and slaw.",
+        "Top with avocado and cilantro.",
+        "Squeeze lime over tacos."
+      ]
+    },
+    {
+      "id": "m_n_10",
+      "name": "Chicken Quesadilla",
+      "imageUrl": "assets/images/chicken_quesadilla.jpg",
+      "calories": 425,
+      "protein": 32,
+      "fat": 18,
+      "carbs": 35,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Mexican", "Comfort food"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Whole wheat tortilla - 2",
+        "Chicken breast - 120g",
+        "Cheddar cheese - 40g",
+        "Bell peppers - 1/2 cup",
+        "Onion - 1/4 cup",
+        "Salsa - 1/4 cup",
+        "Sour cream - 2 tbsp"
+      ],
+      "steps": [
+        "Cook and dice chicken.",
+        "Sauté peppers and onions.",
+        "Place tortilla in pan.",
+        "Add chicken, vegetables, and cheese.",
+        "Top with second tortilla.",
+        "Cook until golden and cheese melts.",
+        "Serve with salsa and sour cream."
+      ]
+    },
+    {
+      "id": "m_n_11",
+      "name": "Beef Taco Salad",
+      "imageUrl": "assets/images/beef_taco_salad.jpg",
+      "calories": 410,
+      "protein": 30,
+      "fat": 20,
+      "carbs": 30,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Mexican", "Satisfying"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Lean ground beef - 120g",
+        "Lettuce - 3 cups",
+        "Black beans - 1/3 cup",
+        "Corn - 1/4 cup",
+        "Tomatoes - 1/2 cup",
+        "Cheddar cheese - 30g",
+        "Tortilla chips - 10 pieces",
+        "Salsa - 1/4 cup"
+      ],
+      "steps": [
+        "Brown beef with taco seasoning.",
+        "Chop lettuce and vegetables.",
+        "Arrange lettuce in bowl.",
+        "Top with beef, beans, corn, tomatoes.",
+        "Add cheese and crushed chips.",
+        "Serve with salsa."
+      ]
+    },
+    {
+      "id": "m_n_12",
+      "name": "Vegetable Fried Rice",
+      "imageUrl": "assets/images/veg_fried_rice.jpg",
+      "calories": 385,
+      "protein": 14,
+      "fat": 12,
+      "carbs": 58,
+      "prepTime": 18,
+      "servings": 1,
+      "dietaryTags": ["Vegetarian", "Asian", "Quick & Easy"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Brown rice - 1 cup cooked",
+        "Mixed vegetables - 1.5 cups",
+        "Eggs - 2",
+        "Soy sauce - 2 tbsp",
+        "Garlic - 2 cloves",
+        "Ginger - 1 tsp",
+        "Green onions - 3"
+      ],
+      "steps": [
+        "Scramble eggs and set aside.",
+        "Stir-fry vegetables with garlic and ginger.",
+        "Add rice and soy sauce.",
+        "Stir in eggs.",
+        "Top with green onions.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": "m_n_13",
+      "name": "Greek Salad with Grilled Chicken",
+      "imageUrl": "assets/images/greek_salad_chicken.jpg",
+      "calories": 395,
+      "protein": 34,
+      "fat": 18,
+      "carbs": 24,
+      "prepTime": 18,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Mediterranean", "Fresh"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Chicken breast - 130g",
+        "Romaine lettuce - 2 cups",
+        "Cucumber - 1 medium",
+        "Tomatoes - 1 cup",
+        "Feta cheese - 30g",
+        "Olives - 10 pieces",
+        "Red onion - 1/4 cup",
+        "Olive oil - 1 tbsp",
+        "Lemon - 1"
+      ],
+      "steps": [
+        "Grill and slice chicken.",
+        "Chop all vegetables.",
+        "Combine in large bowl.",
+        "Add chicken on top.",
+        "Crumble feta over salad.",
+        "Dress with olive oil and lemon."
+      ]
+    },
+    {
+      "id": "m_n_14",
+      "name": "Margherita Pizza",
+      "imageUrl": "assets/images/margherita_pizza.jpg",
+      "calories": 440,
+      "protein": 20,
+      "fat": 16,
+      "carbs": 55,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["Vegetarian", "Italian", "Classic"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Whole wheat pizza dough - 1 small",
+        "Tomato sauce - 1/3 cup",
+        "Fresh mozzarella - 60g",
+        "Fresh basil - 1/4 cup",
+        "Olive oil - 1 tsp",
+        "Garlic - 1 clove"
+      ],
+      "steps": [
+        "Roll out pizza dough.",
+        "Spread tomato sauce.",
+        "Add sliced mozzarella.",
+        "Drizzle with olive oil.",
+        "Bake at 450°F for 12 minutes.",
+        "Top with fresh basil."
+      ]
+    },
+    {
+      "id": "m_n_15",
+      "name": "BLT Sandwich",
+      "imageUrl": "assets/images/blt_sandwich.jpg",
+      "calories": 405,
+      "protein": 18,
+      "fat": 20,
+      "carbs": 38,
+      "prepTime": 12,
+      "servings": 1,
+      "dietaryTags": ["Classic", "Quick & Easy"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Whole wheat bread - 2 slices",
+        "Bacon - 4 strips",
+        "Lettuce - 3 leaves",
+        "Tomato - 4 slices",
+        "Mayo - 2 tbsp",
+        "Avocado - 1/4"
+      ],
+      "steps": [
+        "Cook bacon until crispy.",
+        "Toast bread slices.",
+        "Spread mayo on bread.",
+        "Layer bacon, lettuce, tomato, and avocado.",
+        "Close sandwich and cut.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "id": "m_n_16",
+      "name": "Chicken Burrito",
+      "imageUrl": "assets/images/chicken_burrito.jpg",
+      "calories": 430,
+      "protein": 32,
+      "fat": 16,
+      "carbs": 42,
+      "prepTime": 18,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Mexican", "Satisfying"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Whole wheat tortilla - 1 large",
+        "Chicken breast - 120g",
+        "Black beans - 1/3 cup",
+        "Brown rice - 1/3 cup cooked",
+        "Cheese - 30g",
+        "Salsa - 1/4 cup",
+        "Lettuce - 1/2 cup"
+      ],
+      "steps": [
+        "Season and cook chicken.",
+        "Warm tortilla.",
+        "Add rice, beans, chicken, cheese.",
+        "Top with salsa and lettuce.",
+        "Roll tightly.",
+        "Serve with extra salsa."
+      ]
+    },
+    {
+      "id": "m_n_17",
+      "name": "Tuna Melt",
+      "imageUrl": "assets/images/tuna_melt.jpg",
+      "calories": 420,
+      "protein": 28,
+      "fat": 18,
+      "carbs": 36,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Comfort food"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Whole wheat bread - 2 slices",
+        "Canned tuna - 130g",
+        "Cheddar cheese - 40g",
+        "Mayo - 2 tbsp",
+        "Celery - 2 tbsp",
+        "Onion - 1 tbsp",
+        "Tomato - 2 slices"
+      ],
+      "steps": [
+        "Mix tuna, mayo, celery, and onion.",
+        "Spread on bread.",
+        "Add cheese and tomato.",
+        "Grill until cheese melts.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": "m_n_18",
+      "name": "Chicken Pad Thai",
+      "imageUrl": "assets/images/chicken_pad_thai.jpg",
+      "calories": 445,
+      "protein": 30,
+      "fat": 16,
+      "carbs": 48,
+      "prepTime": 22,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Asian", "Flavorful"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Rice noodles - 80g",
+        "Chicken breast - 120g",
+        "Eggs - 1",
+        "Bean sprouts - 1/2 cup",
+        "Peanuts - 2 tbsp",
+        "Lime - 1",
+        "Pad Thai sauce - 3 tbsp"
+      ],
+      "steps": [
+        "Cook noodles according to package.",
+        "Stir-fry chicken.",
+        "Push aside and scramble egg.",
+        "Add noodles and sauce.",
+        "Add bean sprouts.",
+        "Top with peanuts and lime."
+      ]
+    },
+    {
+      "id": "m_n_19",
+      "name": "Veggie Pizza",
+      "imageUrl": "assets/images/veggie_pizza.jpg",
+      "calories": 415,
+      "protein": 18,
+      "fat": 14,
+      "carbs": 56,
+      "prepTime": 22,
+      "servings": 1,
+      "dietaryTags": ["Vegetarian", "Colorful", "Satisfying"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Whole wheat pizza dough - 1 small",
+        "Tomato sauce - 1/3 cup",
+        "Mozzarella - 50g",
+        "Bell peppers - 1/2 cup",
+        "Mushrooms - 1/2 cup",
+        "Onion - 1/4 cup",
+        "Olives - 8 pieces"
+      ],
+      "steps": [
+        "Roll out dough.",
+        "Spread sauce.",
+        "Add cheese and vegetables.",
+        "Bake at 450°F for 12 minutes.",
+        "Slice and serve."
+      ]
+    },
+    {
+      "id": "m_n_20",
+      "name": "Chicken Noodle Soup",
+      "imageUrl": "assets/images/chicken_noodle_soup.jpg",
+      "calories": 380,
+      "protein": 26,
+      "fat": 10,
+      "carbs": 46,
+      "prepTime": 30,
+      "servings": 2,
+      "dietaryTags": ["Comfort food", "Warming", "Classic"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Chicken breast - 180g",
+        "Egg noodles - 100g",
+        "Carrots - 2 medium",
+        "Celery - 2 stalks",
+        "Onion - 1 medium",
+        "Chicken broth - 4 cups",
+        "Herbs - 1 tsp"
+      ],
+      "steps": [
+        "Dice chicken and vegetables.",
+        "Sauté vegetables in pot.",
+        "Add broth and bring to boil.",
+        "Add chicken and noodles.",
+        "Simmer for 15 minutes.",
+        "Season and serve hot."
+      ]
+    },
+    {
+      "id": "m_n_21",
+      "name": "Grilled Cheese and Tomato Soup",
+      "imageUrl": "assets/images/grilled_cheese_soup.jpg",
+      "calories": 425,
+      "protein": 16,
+      "fat": 18,
+      "carbs": 52,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["Vegetarian", "Comfort food", "Classic"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Whole wheat bread - 2 slices",
+        "Cheddar cheese - 50g",
+        "Butter - 1 tbsp",
+        "Tomato soup - 1.5 cups",
+        "Basil - 1 tbsp"
+      ],
+      "steps": [
+        "Butter bread slices.",
+        "Add cheese between slices.",
+        "Grill until golden and cheese melts.",
+        "Heat tomato soup.",
+        "Garnish soup with basil.",
+        "Serve together."
+      ]
+    },
+    {
+      "id": "m_n_22",
+      "name": "Chicken Fajitas",
+      "imageUrl": "assets/images/chicken_fajitas.jpg",
+      "calories": 410,
+      "protein": 34,
+      "fat": 14,
+      "carbs": 38,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Mexican", "Flavorful"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Chicken breast - 130g",
+        "Bell peppers - 2 colors",
+        "Onion - 1 medium",
+        "Flour tortillas - 2",
+        "Fajita seasoning - 2 tsp",
+        "Sour cream - 2 tbsp",
+        "Salsa - 1/4 cup"
+      ],
+      "steps": [
+        "Slice chicken and vegetables.",
+        "Cook chicken with fajita seasoning.",
+        "Sauté vegetables.",
+        "Warm tortillas.",
+        "Fill with chicken and vegetables.",
+        "Top with sour cream and salsa."
+      ]
+    },
+    {
+      "id": "m_n_23",
+      "name": "Sushi Bowl",
+      "imageUrl": "assets/images/sushi_bowl.jpg",
+      "calories": 400,
+      "protein": 22,
+      "fat": 12,
+      "carbs": 54,
+      "prepTime": 15,
+      "servings": 1,
+      "dietaryTags": ["Asian", "Fresh", "Colorful"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Sushi rice - 3/4 cup cooked",
+        "Imitation crab - 100g",
+        "Cucumber - 1/2 cup",
+        "Avocado - 1/4",
+        "Edamame - 1/4 cup",
+        "Seaweed - 2 tbsp",
+        "Soy sauce - 1 tbsp",
+        "Sesame seeds - 1 tsp"
+      ],
+      "steps": [
+        "Arrange rice in bowl.",
+        "Top with crab and vegetables.",
+        "Add edamame and seaweed.",
+        "Drizzle with soy sauce.",
+        "Sprinkle sesame seeds."
+      ]
+    },
+    {
+      "id": "m_n_24",
+      "name": "Chicken Parmesan",
+      "imageUrl": "assets/images/chicken_parmesan.jpg",
+      "calories": 450,
+      "protein": 36,
+      "fat": 18,
+      "carbs": 38,
+      "prepTime": 30,
+      "servings": 1,
+      "dietaryTags": ["High protein", "Italian", "Comfort food"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Chicken breast - 140g",
+        "Marinara sauce - 1/2 cup",
+        "Mozzarella - 40g",
+        "Parmesan - 20g",
+        "Breadcrumbs - 1/4 cup",
+        "Spaghetti - 60g"
+      ],
+      "steps": [
+        "Coat chicken in breadcrumbs.",
+        "Bake at 375°F for 15 minutes.",
+        "Top with sauce and cheese.",
+        "Bake 10 more minutes.",
+        "Cook pasta.",
+        "Serve chicken over pasta."
+      ]
+    },
+    {
+      "id": "m_n_25",
+      "name": "Buddha Bowl",
+      "imageUrl": "assets/images/buddha_bowl_maintain.jpg",
+      "calories": 415,
+      "protein": 18,
+      "fat": 16,
+      "carbs": 52,
+      "prepTime": 20,
+      "servings": 1,
+      "dietaryTags": ["Vegetarian", "Balanced", "Colorful"],
+      "goal": "maintain",
+      "suitableForDiseases": ["none"],
+      "ingredients": [
+        "Quinoa - 1/2 cup cooked",
+        "Chickpeas - 1/2 cup",
+        "Sweet potato - 1/2 medium",
+        "Kale - 1 cup",
+        "Avocado - 1/4",
+        "Tahini - 1 tbsp",
+        "Lemon - 1/2"
+      ],
+      "steps": [
+        "Roast sweet potato and chickpeas.",
+        "Massage kale with lemon.",
+        "Arrange quinoa in bowl.",
+        "Add all vegetables.",
+        "Drizzle with tahini.",
+        "Serve at room temperature."
+      ]
+    }
+  ]
+}

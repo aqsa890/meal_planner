@@ -32,6 +32,7 @@ class CookbookViewModel extends ChangeNotifier {
       await loadRecipes();
     } catch (e) {
       _errorMessage = 'Failed to initialize recipes: $e';
+      print('Initialize error: $e');
     } finally {
       _isLoading = false;
       notifyListeners();
@@ -49,8 +50,10 @@ class CookbookViewModel extends ChangeNotifier {
         _selectedDisease,
       );
       _errorMessage = '';
+      print('Loaded ${_recipes.length} recipes');
     } catch (e) {
       _errorMessage = 'Failed to load recipes: $e';
+      print('Load recipes error: $e');
     } finally {
       _isLoading = false;
       notifyListeners();
@@ -60,16 +63,18 @@ class CookbookViewModel extends ChangeNotifier {
   // Toggle favorite status
   Future<void> toggleFavorite(String recipeId) async {
     try {
+      print('ViewModel: Toggling favorite for $recipeId');
+
+      // Toggle in repository
       await _repository.toggleFavorite(recipeId);
 
-      // Update local list
-      final index = _recipes.indexWhere((r) => r.id == recipeId);
-      if (index != -1) {
-        _recipes[index].isFavorite = !_recipes[index].isFavorite;
-        notifyListeners();
-      }
+      // Reload recipes to get updated state
+      await loadRecipes();
+
+      print('ViewModel: Favorite toggled successfully');
     } catch (e) {
       _errorMessage = 'Failed to update favorite: $e';
+      print('Toggle favorite error: $e');
       notifyListeners();
     }
   }

@@ -6,7 +6,7 @@ import 'package:meal_planner/data/repositories/recipe_repository.dart';
 class RecipeDetailScreen extends StatefulWidget {
   final Recipe recipe;
 
-  const RecipeDetailScreen({Key? key, required this.recipe}) : super(key: key);
+  const RecipeDetailScreen({super.key, required this.recipe});
 
   @override
   State<RecipeDetailScreen> createState() => _RecipeDetailScreenState();
@@ -24,10 +24,23 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
   }
 
   Future<void> _toggleFavorite() async {
-    await _repository.toggleFavorite(_recipe.id);
-    setState(() {
-      _recipe.isFavorite = !_recipe.isFavorite;
-    });
+    try {
+      print('DetailScreen: Toggling favorite for ${_recipe.id}');
+      await _repository.toggleFavorite(_recipe.id);
+
+      // Reload the recipe from repository
+      final updatedRecipe = await _repository.getRecipeById(_recipe.id);
+      if (updatedRecipe != null) {
+        setState(() {
+          _recipe = updatedRecipe;
+        });
+        print(
+          'DetailScreen: Updated recipe favorite status to ${_recipe.isFavorite}',
+        );
+      }
+    } catch (e) {
+      print('DetailScreen: Error toggling favorite: $e');
+    }
   }
 
   @override
@@ -408,7 +421,7 @@ class _IngredientsSection extends StatelessWidget {
               ],
             ),
           );
-        }).toList(),
+        }),
       ],
     );
   }
@@ -467,7 +480,7 @@ class _StepsSection extends StatelessWidget {
               ],
             ),
           );
-        }).toList(),
+        }),
       ],
     );
   }

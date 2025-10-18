@@ -5,7 +5,7 @@ import 'package:meal_planner/data/repositories/recipe_repository.dart';
 import 'package:meal_planner/presentation/views/Cookbook/recipe_detailview.dart';
 
 class FavoritesScreen extends StatefulWidget {
-  const FavoritesScreen({Key? key}) : super(key: key);
+  const FavoritesScreen({super.key});
 
   @override
   State<FavoritesScreen> createState() => _FavoritesScreenState();

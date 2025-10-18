@@ -6,11 +6,11 @@ import 'package:meal_planner/presentation/views/Cookbook/recipe_detailview.dart'
 import 'package:meal_planner/presentation/views/goal_selection/goalSelection_view.dart';
 import 'package:meal_planner/presentation/widgets/Cookbook/cookbook_header.dart';
 import 'package:meal_planner/presentation/widgets/Cookbook/empty_state.dart';
-import 'package:meal_planner/presentation/widgets/Cookbook/recipe_card.dart';
+import 'package:meal_planner/presentation/widgets/Cookbook/professional_recipe_card.dart';
 import 'package:meal_planner/presentation/widgets/Cookbook/reset_dialogue.dart';
 
 class CookbookScreen extends StatefulWidget {
-  const CookbookScreen({Key? key}) : super(key: key);
+  const CookbookScreen({super.key});
 
   @override
   State<CookbookScreen> createState() => _CookbookScreenState();
@@ -109,14 +109,14 @@ class _CookbookScreenState extends State<CookbookScreen> {
         padding: const EdgeInsets.all(16),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
-          childAspectRatio: 0.75,
-          crossAxisSpacing: 16,
-          mainAxisSpacing: 16,
+          childAspectRatio: 0.65, // Adjusted for NewRecipeCard
+          crossAxisSpacing: 12,
+          mainAxisSpacing: 12,
         ),
         itemCount: _viewModel.recipes.length,
         itemBuilder: (context, index) {
           final recipe = _viewModel.recipes[index];
-          return RecipeCard(
+          return ProfessionalRecipeCard(
             recipe: recipe,
             onTap: () => _navigateToRecipeDetail(recipe),
             onFavoriteToggle: () => _viewModel.toggleFavorite(recipe.id),

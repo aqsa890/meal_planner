@@ -5,8 +5,7 @@ class DietaryTagBadge extends StatelessWidget {
   final String tag;
   final Color color;
 
-  const DietaryTagBadge({Key? key, required this.tag, required this.color})
-    : super(key: key);
+  const DietaryTagBadge({super.key, required this.tag, required this.color});
 
   @override
   Widget build(BuildContext context) {

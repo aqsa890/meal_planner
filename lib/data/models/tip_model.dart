@@ -4,7 +4,7 @@ part 'tip_model.g.dart'; // Generated file for Hive TypeAdapter
 
 /// Model representing a health tip
 /// This model is used to store tips in Hive local database
-@HiveType(typeId: 3) // Ensure this typeId is unique in your app
+@HiveType(typeId: 2) // Ensure this typeId is unique in your app
 class TipModel extends HiveObject {
   @HiveField(0)
   final String id;

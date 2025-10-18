@@ -99,17 +99,22 @@ class _CalculateCaloriesScreenState extends State<CalculateCaloriesScreen> {
 
                       // Gender
                       DropdownButtonFormField<String>(
-                        value: gender,
+                        initialValue: gender,
                         decoration: const InputDecoration(
                           labelText: "Gender",
                           prefixIcon: Icon(Icons.person),
                         ),
-                        items: ["Male", "Female"]
-                            .map((g) =>
-                            DropdownMenuItem(value: g, child: Text(g)))
-                            .toList(),
-                        onChanged: (value) =>
-                            setStateDialog(() => gender = value!),
+                        items:
+                            ["Male", "Female"]
+                                .map(
+                                  (g) => DropdownMenuItem(
+                                    value: g,
+                                    child: Text(g),
+                                  ),
+                                )
+                                .toList(),
+                        onChanged:
+                            (value) => setStateDialog(() => gender = value!),
                       ),
 
                       const SizedBox(height: 12),
@@ -121,10 +126,9 @@ class _CalculateCaloriesScreenState extends State<CalculateCaloriesScreen> {
                           prefixIcon: Icon(Icons.monitor_weight),
                         ),
                         keyboardType: TextInputType.number,
-                        validator: (value) =>
-                        value!.isEmpty ? "Enter weight" : null,
-                        onSaved: (value) =>
-                        weight = double.parse(value ?? "0"),
+                        validator:
+                            (value) => value!.isEmpty ? "Enter weight" : null,
+                        onSaved: (value) => weight = double.parse(value ?? "0"),
                       ),
 
                       const SizedBox(height: 12),
@@ -136,10 +140,9 @@ class _CalculateCaloriesScreenState extends State<CalculateCaloriesScreen> {
                           prefixIcon: Icon(Icons.height),
                         ),
                         keyboardType: TextInputType.number,
-                        validator: (value) =>
-                        value!.isEmpty ? "Enter height" : null,
-                        onSaved: (value) =>
-                        height = double.parse(value ?? "0"),
+                        validator:
+                            (value) => value!.isEmpty ? "Enter height" : null,
+                        onSaved: (value) => height = double.parse(value ?? "0"),
                       ),
 
                       const SizedBox(height: 12),
@@ -151,8 +154,8 @@ class _CalculateCaloriesScreenState extends State<CalculateCaloriesScreen> {
                           prefixIcon: Icon(Icons.cake),
                         ),
                         keyboardType: TextInputType.number,
-                        validator: (value) =>
-                        value!.isEmpty ? "Enter age" : null,
+                        validator:
+                            (value) => value!.isEmpty ? "Enter age" : null,
                         onSaved: (value) => age = int.parse(value ?? "0"),
                       ),
 
@@ -160,17 +163,22 @@ class _CalculateCaloriesScreenState extends State<CalculateCaloriesScreen> {
 
                       // Activity
                       DropdownButtonFormField<String>(
-                        value: activity,
+                        initialValue: activity,
                         decoration: const InputDecoration(
                           labelText: "Activity Level",
                           prefixIcon: Icon(Icons.fitness_center),
                         ),
-                        items: activities
-                            .map((a) => DropdownMenuItem(
-                            value: a, child: Text(a)))
-                            .toList(),
-                        onChanged: (value) =>
-                            setStateDialog(() => activity = value!),
+                        items:
+                            activities
+                                .map(
+                                  (a) => DropdownMenuItem(
+                                    value: a,
+                                    child: Text(a),
+                                  ),
+                                )
+                                .toList(),
+                        onChanged:
+                            (value) => setStateDialog(() => activity = value!),
                       ),
 
                       const SizedBox(height: 20),
@@ -216,14 +224,15 @@ class _CalculateCaloriesScreenState extends State<CalculateCaloriesScreen> {
                   onPressed: () {
                     Navigator.pushAndRemoveUntil(
                       context,
-                      MaterialPageRoute(builder: (context) => const Dashboard()),
-                          (route) => false, // removes all previous routes
+                      MaterialPageRoute(
+                        builder: (context) => const Dashboard(),
+                      ),
+                      (route) => false, // removes all previous routes
                     );
                   },
                   child: const Text("Close"),
                 ),
               ],
-
             );
           },
         );

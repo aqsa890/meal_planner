@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 class ResetPreferencesDialog extends StatelessWidget {
-  const ResetPreferencesDialog({Key? key}) : super(key: key);
+  const ResetPreferencesDialog({super.key});
 
   static Future<bool?> show(BuildContext context) {
     return showDialog<bool>(

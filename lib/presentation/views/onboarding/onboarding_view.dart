@@ -99,18 +99,6 @@ class _OnboardingViewState extends State<OnboardingView> {
                   ),
                 ),
 
-                // ---------- Smooth page indicator ----------
-                SmoothPageIndicator(
-                  controller: _pageController,
-                  count: 3,
-                  effect: ExpandingDotsEffect(
-                    activeDotColor: colorScheme.primary,
-                    dotColor: colorScheme.onSurface.withOpacity(0.3),
-                    dotHeight: 8,
-                    dotWidth: 8,
-                  ),
-                ),
-
                 const SizedBox(height: 20),
 
                 // ---------- Button (Next / Get Started) ----------

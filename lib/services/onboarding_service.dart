@@ -6,7 +6,24 @@ class OnboardingService {
   static const String _boxName = 'userPreferencesBox';
 
   static Future<void> init() async {
-    _box = await Hive.openBox<UserPreferences>(_boxName);
+    try {
+      // Check if box is already open
+      if (Hive.isBoxOpen(_boxName)) {
+        print("UserPreferences box is already open");
+        _box = Hive.box<UserPreferences>(_boxName);
+      } else {
+        print("Opening UserPreferences box");
+        _box = await Hive.openBox<UserPreferences>(_boxName);
+      }
+      print("Box is empty: ${_box.isEmpty}");
+      if (_box.isNotEmpty) {
+        print(
+          "First item onboarding completed: ${_box.getAt(0)?.isOnboardingCompleted}",
+        );
+      }
+    } catch (e) {
+      print("Error initializing OnboardingService: $e");
+    }
   }
 
   static bool get isOnboardingCompleted {
@@ -31,5 +48,13 @@ class OnboardingService {
     }
   }
 
-  static setOnboardingCompleted() {}
+  static Future<void> setOnboardingCompleted() async {
+    final prefs = UserPreferences(isOnboardingCompleted: true);
+
+    if (_box.isEmpty) {
+      await _box.add(prefs);
+    } else {
+      await _box.putAt(0, prefs);
+    }
+  }
 }

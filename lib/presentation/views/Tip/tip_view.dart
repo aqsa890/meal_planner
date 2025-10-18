@@ -10,7 +10,7 @@ import 'package:meal_planner/services/tip_services.dart';
 /// Displays health tips with filtering and search functionality
 /// Uses StatefulWidget without any external state management
 class TipsScreen extends StatefulWidget {
-  const TipsScreen({Key? key}) : super(key: key);
+  const TipsScreen({super.key});
 
   @override
   State<TipsScreen> createState() => _TipsScreenState();

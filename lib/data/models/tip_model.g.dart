@@ -8,7 +8,7 @@ part of 'tip_model.dart';
 
 class TipModelAdapter extends TypeAdapter<TipModel> {
   @override
-  final int typeId = 3;
+  final int typeId = 2;
 
   @override
   TipModel read(BinaryReader reader) {

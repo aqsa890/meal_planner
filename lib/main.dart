@@ -15,17 +15,36 @@ void main() async {
 
   await Hive.initFlutter();
 
-  // Register Adapters (make sure .g.dart files are generated)
-  Hive.registerAdapter(UserPreferencesAdapter());
-  Hive.registerAdapter(NutritionPlanAdapter());
-  Hive.registerAdapter(TipModelAdapter());
-  Hive.registerAdapter(RecipeAdapter());
+  // Register Adapters with their updated typeIds
+  if (!Hive.isAdapterRegistered(0)) {
+    Hive.registerAdapter(UserPreferencesAdapter()); // typeId: 0
+  }
+  if (!Hive.isAdapterRegistered(1)) {
+    Hive.registerAdapter(NutritionPlanAdapter()); // typeId: 1
+  }
+  if (!Hive.isAdapterRegistered(2)) {
+    Hive.registerAdapter(TipModelAdapter()); // typeId: 2
+  }
+  if (!Hive.isAdapterRegistered(3)) {
+    Hive.registerAdapter(RecipeAdapter()); // typeId: 3
+  }
 
   // Open boxes (must match your code everywhere)
-  await Hive.openBox<UserPreferences>('userPreferencesBox');
-  await Hive.openBox<NutritionPlan>('nutritionPlansBox');
+  try {
+    print("Opening Hive boxes...");
+    await Hive.openBox<UserPreferences>('userPreferencesBox');
+    await Hive.openBox<NutritionPlan>('nutritionPlansBox');
+    await Hive.openBox<TipModel>('tipsBox');
+    await Hive.openBox<Recipe>('recipesBox');
+    print("All Hive boxes opened successfully");
 
-  await OnboardingService.init(); // initializes Hive box and loads data
+    // Since the box is already opened, we can just call init now
+    await OnboardingService.init();
+    print("OnboardingService initialized");
+    print("Onboarding completed: ${OnboardingService.isOnboardingCompleted}");
+  } catch (e) {
+    print("Error during initialization: $e");
+  }
 
   runApp(const MyApp());
 }
@@ -35,6 +54,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final bool isOnboardingCompleted = OnboardingService.isOnboardingCompleted;
+    print("Building MyApp - Onboarding completed: $isOnboardingCompleted");
+
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Meal Planner",
@@ -43,7 +65,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       //  Decide home screen based on onboarding completion
       home:
-          OnboardingService.isOnboardingCompleted
+          isOnboardingCompleted
               ? const HomeView() // open home if already completed
               : const OnboardingView(), // otherwise start onboarding
       //  first time shows Onboarding

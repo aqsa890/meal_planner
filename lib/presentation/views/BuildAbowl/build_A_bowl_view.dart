@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meal_planner/presentation/widgets/meal_card.dart';
-import 'package:meal_planner/presentation/widgets/meal_form_dialogue.dart';
+import 'package:meal_planner/presentation/widgets/meal_form_dialogue.dart'
+    hide MealCard;
 
 /// ---------------- Build-a-Bowl Screen ----------------
 class BuildABowlScreen extends StatefulWidget {

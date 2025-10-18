@@ -1,10 +1,10 @@
-// lib/data/models/recipe_model.dart
+// lib/models/recipe_model.dart
 import 'package:hive/hive.dart';
 
 part 'recipe_model.g.dart';
 
-@HiveType(typeId: 2)
-class Recipe extends HiveObject {
+@HiveType(typeId: 3)
+class Recipe {
   @HiveField(0)
   final String id;
 
@@ -68,39 +68,44 @@ class Recipe extends HiveObject {
     this.isFavorite = false,
   });
 
-  Recipe copyWith({
-    String? id,
-    String? name,
-    String? imageUrl,
-    int? calories,
-    int? protein,
-    int? fat,
-    int? carbs,
-    int? prepTime,
-    List<String>? ingredients,
-    List<String>? steps,
-    int? servings,
-    List<String>? dietaryTags,
-    String? goal,
-    List<String>? suitableForDiseases,
-    bool? isFavorite,
-  }) {
+  // From JSON
+  factory Recipe.fromJson(Map<String, dynamic> json) {
     return Recipe(
-      id: id ?? this.id,
-      name: name ?? this.name,
-      imageUrl: imageUrl ?? this.imageUrl,
-      calories: calories ?? this.calories,
-      protein: protein ?? this.protein,
-      fat: fat ?? this.fat,
-      carbs: carbs ?? this.carbs,
-      prepTime: prepTime ?? this.prepTime,
-      ingredients: ingredients ?? this.ingredients,
-      steps: steps ?? this.steps,
-      servings: servings ?? this.servings,
-      dietaryTags: dietaryTags ?? this.dietaryTags,
-      goal: goal ?? this.goal,
-      suitableForDiseases: suitableForDiseases ?? this.suitableForDiseases,
-      isFavorite: isFavorite ?? this.isFavorite,
+      id: json['id'] as String,
+      name: json['name'] as String,
+      imageUrl: json['imageUrl'] as String,
+      calories: json['calories'] as int,
+      protein: json['protein'] as int,
+      fat: json['fat'] as int,
+      carbs: json['carbs'] as int,
+      prepTime: json['prepTime'] as int,
+      ingredients: List<String>.from(json['ingredients']),
+      steps: List<String>.from(json['steps']),
+      servings: json['servings'] as int,
+      dietaryTags: List<String>.from(json['dietaryTags']),
+      goal: json['goal'] as String,
+      suitableForDiseases: List<String>.from(json['suitableForDiseases']),
+      isFavorite: false,
     );
+  }
+
+  // To JSON
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'name': name,
+      'imageUrl': imageUrl,
+      'calories': calories,
+      'protein': protein,
+      'fat': fat,
+      'carbs': carbs,
+      'prepTime': prepTime,
+      'ingredients': ingredients,
+      'steps': steps,
+      'servings': servings,
+      'dietaryTags': dietaryTags,
+      'goal': goal,
+      'suitableForDiseases': suitableForDiseases,
+    };
   }
 }
