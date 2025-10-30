@@ -333,7 +333,7 @@ class _CalculateCaloriesScreenState extends State<CalculateCaloriesScreen> {
     return Padding(
       padding: const EdgeInsets.only(bottom: 10),
       child: DropdownButtonFormField<String>(
-        value: value,
+        initialValue: value,
         decoration: InputDecoration(
           hintText: label,
           hintStyle: const TextStyle(
